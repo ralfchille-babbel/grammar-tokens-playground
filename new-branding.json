@@ -869,7 +869,7 @@
     }
   },
   "semantic generic": {
-    "text": {
+    "short-text": {
       "xsmall": {
         "value": {
           "fontFamily": "{font.family.grotesk}",
@@ -922,7 +922,7 @@
         "type": "typography"
       }
     },
-    "text-strong": {
+    "short-text-strong": {
       "xsmall": {
         "value": {
           "fontFamily": "{font.family.grotesk}",
