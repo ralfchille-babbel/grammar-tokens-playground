@@ -2504,7 +2504,7 @@
   },
   "button": {
     "button": {
-      "primary": {
+      "primary-default": {
         "bg": {
           "enabled": {
             "value": "{accent.enabled}",
@@ -2564,7 +2564,7 @@
           }
         }
       },
-      "secondary": {
+      "secondary-default": {
         "bg": {
           "enabled": {
             "value": "{accent-inverse.enabled}",
@@ -2644,7 +2644,7 @@
           }
         }
       },
-      "tertiary": {
+      "ghost": {
         "bg": {
           "enabled": {
             "value": "{other.none}",
@@ -2674,7 +2674,7 @@
           }
         }
       },
-      "primary-inverse": {
+      "primary-default-inverse": {
         "bg": {
           "enabled": {
             "value": "{accent-inverse.enabled}",
@@ -2704,7 +2704,7 @@
           }
         }
       },
-      "secondary-inverse": {
+      "secondary-default-inverse": {
         "bg": {
           "enabled": {
             "value": "{accent.enabled}",
@@ -2744,7 +2744,7 @@
           }
         }
       },
-      "tertiary-inverse": {
+      "ghost-inverse": {
         "bg": {
           "enabled": {
             "value": "{other.none}",
