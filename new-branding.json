@@ -2989,6 +2989,110 @@
           "default": {
             "value": "{neutral.surface-default}",
             "type": "color"
+          },
+          "focus": {
+            "value": "{neutral.surface-default}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.surface",
+            "type": "color"
+          },
+          "success": {
+            "value": "{feedback.success.surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{disabled.surface}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{neutral.on-surface-subdued-2}",
+            "type": "color"
+          },
+          "focus": {
+            "value": null,
+            "type": "color"
+          },
+          "error": {
+            "value": null,
+            "type": "color"
+          },
+          "success": {
+            "value": null,
+            "type": "color"
+          },
+          "disabled": {
+            "value": null,
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": null,
+            "type": "color"
+          },
+          "focus": {
+            "value": null,
+            "type": "color"
+          },
+          "error": {
+            "value": null,
+            "type": "color"
+          },
+          "success": {
+            "value": null,
+            "type": "color"
+          },
+          "disabled": {
+            "value": null,
+            "type": "color"
+          }
+        },
+        "label": {
+          "default": {
+            "value": null,
+            "type": "color"
+          },
+          "focus": {
+            "value": null,
+            "type": "color"
+          },
+          "error": {
+            "value": null,
+            "type": "color"
+          },
+          "success": {
+            "value": null,
+            "type": "color"
+          },
+          "disabled": {
+            "value": null,
+            "type": "color"
+          }
+        },
+        "helptext": {
+          "default": {
+            "value": null,
+            "type": "color"
+          },
+          "focus": {
+            "value": null,
+            "type": "color"
+          },
+          "error": {
+            "value": null,
+            "type": "color"
+          },
+          "success": {
+            "value": null,
+            "type": "color"
+          },
+          "disabled": {
+            "value": null,
+            "type": "color"
           }
         }
       }
