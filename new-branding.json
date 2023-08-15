@@ -3013,59 +3013,59 @@
             "type": "color"
           },
           "focus": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "error": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "success": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "disabled": {
-            "value": null,
+            "value": ,
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "focus": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "error": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "success": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "disabled": {
-            "value": null,
+            "value": ,
             "type": "color"
           }
         },
         "label": {
           "default": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "focus": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "error": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "success": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "disabled": {
@@ -3075,23 +3075,23 @@
         },
         "helptext": {
           "default": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "focus": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "error": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "success": {
-            "value": null,
+            "value": ,
             "type": "color"
           },
           "disabled": {
-            "value": null,
+            "value": ,
             "type": "color"
           }
         }
