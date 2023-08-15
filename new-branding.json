@@ -2982,6 +2982,18 @@
       }
     }
   },
+  "textfield": {
+    "textfield": {
+      "default": {
+        "bg": {
+          "default": {
+            "value": "{neutral.surface-default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "title-bar": {
     "title-bar": {
       "bg": {
@@ -3118,7 +3130,8 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "textfield": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3362,7 +3375,8 @@
         "reference": "source",
         "semantic light": "enabled",
         "semantic dark": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "textfield": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
@@ -3503,7 +3517,8 @@
         "link": "enabled",
         "bottom-nav": "enabled",
         "title-bar": "enabled",
-        "semantic generic": "source"
+        "semantic generic": "source",
+        "textfield": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7431",
       "$figmaModeId": "3103:6",
@@ -3670,11 +3685,11 @@
       "seperator",
       "spinner",
       "text",
-      "textfield",
       "toast",
       "tooltip",
       "view",
       "modal",
+      "textfield",
       "title-bar"
     ]
   }
