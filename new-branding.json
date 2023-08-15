@@ -2982,6 +2982,122 @@
       }
     }
   },
+  "textfield": {
+    "textfield": {
+      "default": {
+        "bg": {
+          "default": {
+            "value": "{neutral.surface-default}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{neutral.surface-default}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.surface}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{feedback.success.surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{disabled.surface}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{neutral.on-surface-subdued-2}",
+            "type": "color"
+          },
+          "focus": {
+            "value": {},
+            "type": "color"
+          },
+          "error": {
+            "value": {},
+            "type": "color"
+          },
+          "success": {
+            "value": {},
+            "type": "color"
+          },
+          "disabled": {
+            "value": {},
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": {},
+            "type": "color"
+          },
+          "focus": {
+            "value": {},
+            "type": "color"
+          },
+          "error": {
+            "value": {},
+            "type": "color"
+          },
+          "success": {
+            "value": {},
+            "type": "color"
+          },
+          "disabled": {
+            "value": {},
+            "type": "color"
+          }
+        },
+        "label": {
+          "default": {
+            "value": {},
+            "type": "color"
+          },
+          "focus": {
+            "value": {},
+            "type": "color"
+          },
+          "error": {
+            "value": {},
+            "type": "color"
+          },
+          "success": {
+            "value": {},
+            "type": "color"
+          },
+          "disabled": {
+            "value": {},
+            "type": "color"
+          }
+        },
+        "helptext": {
+          "default": {
+            "value": {},
+            "type": "color"
+          },
+          "focus": {
+            "value": {},
+            "type": "color"
+          },
+          "error": {
+            "value": {},
+            "type": "color"
+          },
+          "success": {
+            "value": {},
+            "type": "color"
+          },
+          "disabled": {
+            "value": {},
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "title-bar": {
     "title-bar": {
       "bg": {
@@ -3118,8 +3234,7 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled",
-        "textfield": "disabled"
+        "semantic generic": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3363,8 +3478,7 @@
         "reference": "source",
         "semantic light": "enabled",
         "semantic dark": "enabled",
-        "semantic generic": "enabled",
-        "textfield": "disabled"
+        "semantic generic": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
@@ -3505,8 +3619,7 @@
         "link": "enabled",
         "bottom-nav": "enabled",
         "title-bar": "enabled",
-        "semantic generic": "source",
-        "textfield": "disabled"
+        "semantic generic": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7431",
       "$figmaModeId": "3103:6",
