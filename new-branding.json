@@ -2345,7 +2345,7 @@
           }
         }
       },
-      "highlight": {
+      "emphasis": {
         "fg": {
           "enabled": {
             "value": "{brand.enabled}",
