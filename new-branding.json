@@ -826,11 +826,11 @@
       },
       "green": {
         "green100": {
-          "value": "#E6F3C9",
+          "value": "#EDFFE8",
           "type": "color"
         },
         "green200": {
-          "value": "#D8ECAC",
+          "value": "#D3F9C6",
           "type": "color"
         },
         "green300": {
