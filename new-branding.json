@@ -418,6 +418,10 @@
         "value": "16px",
         "type": "borderRadius"
       },
+      "x5": {
+        "value": "20px",
+        "type": "borderRadius"
+      },
       "x1000": {
         "value": "4000px",
         "type": "borderRadius"
@@ -1259,6 +1263,10 @@
       },
       "xlarge": {
         "value": "{radius-size.x4}",
+        "type": "borderRadius"
+      },
+      "xxlarge": {
+        "value": "{radius-size.x5}",
         "type": "borderRadius"
       },
       "round": {
