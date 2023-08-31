@@ -1860,8 +1860,9 @@
         "type": "color"
       },
       "overlay-background": {
-        "value": "{reference.black}",
-        "type": "color"
+        "value": "#00000080",
+        "type": "color",
+        "$extensions": {}
       }
     },
     "disabled": {
@@ -2210,7 +2211,7 @@
         "type": "color"
       },
       "overlay-background": {
-        "value": "{reference.black}",
+        "value": "#23222099",
         "type": "color"
       }
     },
