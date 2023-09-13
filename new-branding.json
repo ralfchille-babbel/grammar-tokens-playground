@@ -1725,10 +1725,6 @@
         "value": "{reference.gray.gray750}",
         "type": "color"
       },
-      "selected": {
-        "value": "{reference.orange.orange650}",
-        "type": "color"
-      },
       "on-enabled": {
         "value": "{reference.white}",
         "type": "color"
@@ -1739,6 +1735,22 @@
         "value": "{reference.white}",
         "type": "color"
       },
+      "enabled-darkened": {
+        "value": "{reference.gray.gray50}",
+        "type": "color"
+      },
+      "enabled-border": {
+        "value": "{reference.gray.gray950}",
+        "type": "color"
+      },
+      "enabled-border-subdued": {
+        "value": "{reference.gray.gray250}",
+        "type": "color"
+      },
+      "on-enabled": {
+        "value": "{reference.gray.gray950}",
+        "type": "color"
+      },
       "hover": {
         "value": "{reference.gray.gray100}",
         "type": "color"
@@ -1747,11 +1759,7 @@
         "value": "{reference.gray.gray200}",
         "type": "color"
       },
-      "selected": {
-        "value": "{reference.orange.orange150}",
-        "type": "color"
-      },
-      "on-enabled": {
+      "selected-border": {
         "value": "{reference.gray.gray950}",
         "type": "color"
       }
@@ -2076,10 +2084,6 @@
         "value": "{reference.gray.gray200}",
         "type": "color"
       },
-      "selected": {
-        "value": "{reference.orange.orange150}",
-        "type": "color"
-      },
       "on-enabled": {
         "value": "{reference.gray.gray950}",
         "type": "color"
@@ -2090,6 +2094,22 @@
         "value": "{reference.gray.gray950}",
         "type": "color"
       },
+      "enabled-darkened": {
+        "value": "{reference.gray.gray850}",
+        "type": "color"
+      },
+      "enabled-border": {
+        "value": "{reference.white}",
+        "type": "color"
+      },
+      "enabled-border-subdued": {
+        "value": "{reference.gray.gray650}",
+        "type": "color"
+      },
+      "on-enabled": {
+        "value": "{reference.white}",
+        "type": "color"
+      },
       "hover": {
         "value": "{reference.gray.gray800}",
         "type": "color"
@@ -2098,11 +2118,7 @@
         "value": "{reference.gray.gray700}",
         "type": "color"
       },
-      "selected": {
-        "value": "{reference.orange.orange650}",
-        "type": "color"
-      },
-      "on-enabled": {
+      "selected-border": {
         "value": "{reference.white}",
         "type": "color"
       }
@@ -3360,12 +3376,10 @@
         "accent.enabled": "b9efc2afd7bd18308eb3161adc9dd2795ce63731",
         "accent.hover": "bd2e9783250d87c1d87d69c4f66979fe68a5fab3",
         "accent.active": "9634e0db09300765260c7d59c94f96409db0957f",
-        "accent.selected": "184e3124d81bcdc6fc6a82bb9d372456dae60366",
         "accent.on-enabled": "2edf5156f3ff450b2132f0bdb5e478b7866bc001",
         "accent-inverse.enabled": "d77b4520bc4acf2c8d667fc87adb15a1c9dc1333",
         "accent-inverse.hover": "88571c091e6bdf91821f4f74d9ad5e35fdb8dedb",
         "accent-inverse.active": "2194e99e100bec2acd3f34933d2298691e87d894",
-        "accent-inverse.selected": "c72dc68f11f731ae3e3b9f0229fcd6614b17fb27",
         "accent-inverse.on-enabled": "61ac27ced55464ae17c88bc70f021731932a77ef",
         "neutral.app-background": "2e3e83a78dc264210bfbf63606e54942530b063e",
         "neutral.surface-lightened": "8487298c48738b85a75fc880773d5194f8cf0f00",
@@ -3603,12 +3617,10 @@
         "accent.enabled": "b9efc2afd7bd18308eb3161adc9dd2795ce63731",
         "accent.hover": "bd2e9783250d87c1d87d69c4f66979fe68a5fab3",
         "accent.active": "9634e0db09300765260c7d59c94f96409db0957f",
-        "accent.selected": "184e3124d81bcdc6fc6a82bb9d372456dae60366",
         "accent.on-enabled": "2edf5156f3ff450b2132f0bdb5e478b7866bc001",
         "accent-inverse.enabled": "d77b4520bc4acf2c8d667fc87adb15a1c9dc1333",
         "accent-inverse.hover": "88571c091e6bdf91821f4f74d9ad5e35fdb8dedb",
         "accent-inverse.active": "2194e99e100bec2acd3f34933d2298691e87d894",
-        "accent-inverse.selected": "c72dc68f11f731ae3e3b9f0229fcd6614b17fb27",
         "accent-inverse.on-enabled": "61ac27ced55464ae17c88bc70f021731932a77ef",
         "neutral.on-surface-default": "f22baa9f2611ff65ccaeeaa24e9e24ddecf9e271",
         "neutral.on-surface-subdued-1": "7b0d0636fbcc13c08b40e4976872ad21602aca84",
