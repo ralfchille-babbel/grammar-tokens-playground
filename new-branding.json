@@ -108,7 +108,7 @@
       },
       "line-height": {
         "x4": {
-          "value": "16",
+          "value": "16px",
           "type": "lineHeights"
         },
         "x5": {
@@ -2811,7 +2811,7 @@
       }
     }
   },
-  "card": {
+  "simple card": {
     "default": {
       "background": {
         "value": "{neutral.surface-lightened}",
@@ -2843,52 +2843,6 @@
       "type": "color"
     }
   },
-  "section": {
-    "default": {
-      "background": {
-        "value": "{other.none}",
-        "type": "color"
-      }
-    },
-    "emphasize": {
-      "background": {
-        "value": "{neutral.surface-darkened-1}",
-        "type": "color"
-      }
-    },
-    "spotlight": {
-      "background": {
-        "value": "{brand.surface--default}",
-        "type": "color"
-      }
-    },
-    "strong-emphasize": {
-      "background": {
-        "value": "{neutral.surface-inverse-default}",
-        "type": "color"
-      }
-    }
-  },
-  "seperator": {
-    "default": {
-      "border-color": {
-        "value": "{lines.default}",
-        "type": "color"
-      }
-    },
-    "high-contrast": {
-      "border-color": {
-        "value": "{lines.high-contrast}",
-        "type": "color"
-      }
-    },
-    "low-contrast": {
-      "border-color": {
-        "value": "{lines.low-contrast}",
-        "type": "color"
-      }
-    }
-  },
   "spinner": {
     "spinner": {
       "foreground": {
@@ -2912,22 +2866,6 @@
           "type": "color",
           "description": "{neutral.on-surface-inverse} at 40%"
         }
-      }
-    }
-  },
-  "text": {
-    "color": {
-      "default": {
-        "value": "{neutral.on-surface-default}",
-        "type": "color"
-      },
-      "inverse": {
-        "value": "{neutral.on-surface-inverse}",
-        "type": "color"
-      },
-      "subdued": {
-        "value": "{neutral.on-surface-subdued-1}",
-        "type": "color"
       }
     }
   },
@@ -2975,20 +2913,6 @@
       },
       "foreground": {
         "value": "{neutral.on-surface-inverse}",
-        "type": "color"
-      }
-    }
-  },
-  "view": {
-    "default": {
-      "background": {
-        "value": "{neutral.surface-default}",
-        "type": "color"
-      }
-    },
-    "emphasize": {
-      "background": {
-        "value": "{brand.surface--default}",
         "type": "color"
       }
     }
@@ -3212,6 +3136,68 @@
       }
     }
   },
+  "checkbox": {
+    "checkbox": {
+      "unselected": {
+        "bg": {
+          "value": "{accent-inverse.enabled}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{accent-inverse.enabled-border}",
+          "type": "color"
+        }
+      },
+      "checked": {
+        "bg": {
+          "value": "{accent-inverse.on-enabled}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{accent-inverse.enabled}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{accent-inverse.enabled-border}",
+          "type": "color"
+        }
+      },
+      "indeterminate": {
+        "bg": {
+          "value": "{accent-inverse.on-enabled}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{accent-inverse.enabled}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{accent-inverse.enabled-border}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "bg": {
+          "value": "{feedback.attention.surface}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{feedback.attention.on-surface}",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "bg": {
+          "value": "{disabled.default}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{disabled.on-surface-default}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
@@ -3352,7 +3338,9 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "simple card": "disabled",
+        "checkbox": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3593,7 +3581,9 @@
         "reference": "source",
         "semantic light": "enabled",
         "semantic dark": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "simple card": "disabled",
+        "checkbox": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
@@ -3730,18 +3720,15 @@
       "badge",
       "bottom-nav",
       "button",
-      "card",
+      "simple card",
       "progress-bar",
-      "section",
-      "seperator",
       "spinner",
-      "text",
       "toast",
       "tooltip",
-      "view",
       "modal",
       "textfield",
-      "title-bar"
+      "title-bar",
+      "checkbox"
     ]
   }
 }
