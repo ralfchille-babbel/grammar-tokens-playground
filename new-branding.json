@@ -2829,7 +2829,7 @@
       }
     }
   },
-  "simple card": {
+  "simple-card": {
     "default": {
       "background": {
         "value": "{neutral.surface-lightened}",
@@ -2843,22 +2843,28 @@
       }
     }
   },
-  "progress-bar": {
-    "background": {
-      "value": "{neutral.surface-darkened-2}",
-      "type": "color"
-    },
-    "trainer-completed": {
-      "value": "{brand.surface-lightened}",
-      "type": "color"
-    },
-    "trainer-current": {
-      "value": "{brand.enabled}",
-      "type": "color"
-    },
-    "course-completed": {
-      "value": "{feedback.emphasize.default}",
-      "type": "color"
+  "progress": {
+    "progress": {
+      "default": {
+        "bg": {
+          "value": "{neutral.surface-default}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{brand.default}",
+          "type": "color"
+        }
+      },
+      "lightened": {
+        "bg": {
+          "value": "{neutral.surface-lightened}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{brand.default}",
+          "type": "color"
+        }
+      }
     }
   },
   "spinner": {
@@ -3456,7 +3462,9 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "simple-card": "disabled",
+        "progress": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3697,7 +3705,9 @@
         "reference": "source",
         "semantic light": "enabled",
         "semantic dark": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "simple-card": "disabled",
+        "progress": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
@@ -3834,8 +3844,8 @@
       "badge",
       "bottom-nav",
       "button",
-      "simple card",
-      "progress-bar",
+      "simple-card",
+      "progress",
       "spinner",
       "toast",
       "tooltip",
