@@ -3216,6 +3216,106 @@
       }
     }
   },
+  "switch": {
+    "switch": {
+      "ios": {
+        "inactive": {
+          "bg": {
+            "value": "{neutral.surface-darkened-2}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{accent.on-enabled}",
+            "type": "color"
+          }
+        },
+        "active": {
+          "bg": {
+            "value": "{accent.enabled}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{accent.on-enabled}",
+            "type": "color"
+          }
+        },
+        "inactive-disabled": {
+          "bg": {
+            "value": "{disabled.default}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{disabled.surface}",
+            "type": "color"
+          }
+        },
+        "active-disabled": {
+          "bg": {
+            "value": "{disabled.default}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{disabled.surface}",
+            "type": "color"
+          }
+        }
+      },
+      "android": {
+        "inactive": {
+          "bg": {
+            "value": "{accent.enabled}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{accent.on-enabled}",
+            "type": "color"
+          }
+        },
+        "active": {
+          "bg": {
+            "value": "{accent-inverse.enabled}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{accent-inverse.on-enabled}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{accent-inverse.on-enabled}",
+            "type": "color"
+          }
+        },
+        "inactive-disabled": {
+          "bg": {
+            "value": "{disabled.default}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{disabled.on-surface-default}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{disabled.on-surface-default}",
+            "type": "color"
+          }
+        },
+        "active-disabled": {
+          "bg": {
+            "value": "{disabled.default}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{disabled.on-surface-default}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{disabled.on-surface-default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
@@ -3742,7 +3842,8 @@
       "modal",
       "textfield",
       "title-bar",
-      "checkbox"
+      "checkbox",
+      "switch"
     ]
   }
 }
