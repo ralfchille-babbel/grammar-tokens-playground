@@ -2,4 +2,4 @@ To design for the Babbel language learnign eco-system you need to activate the *
 
 The Babbel design system Figma library support variables and allows you to design in light or dark mode. [Switch between](https://help.figma.com/hc/en-us/articles/15343816063383-Modes-for-variables) light and dark mode test or validate your color usage.
 
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![Grammar Setup Visual!](grammar-setup.png "Grammar Setup Visual")
