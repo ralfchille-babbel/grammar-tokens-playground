@@ -1,6 +1,6 @@
 ## Getting Started
 
-To design for the Babbel language learnign eco-system you need to activate the **Grammar Design System** Figma library. This library provides all the variables, styles and components to get started.
+To design for the Babbel language learnign eco-system you need to **activate** the **Grammar Design System** Figma library. This library provides all the variables, styles and components to get started.
 
 [Download](https://grammar-designsystem.preview.supernova-docs.io/latest/c/design-foundation/typography/fonts-xh4VpPwx) the Babbel fonts to use Grammar Design System in Figma.
 
