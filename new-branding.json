@@ -1887,8 +1887,7 @@
       },
       "overlay-background": {
         "value": "#00000080",
-        "type": "color",
-        "$extensions": {}
+        "type": "color"
       }
     },
     "disabled": {
@@ -2539,8 +2538,7 @@
       "bg": {
         "default": {
           "value": "{neutral.surface-lightened}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         }
       },
       "fg": {
@@ -2585,6 +2583,10 @@
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "inverse",
+          "type": "other"
         }
       },
       "primary-emphasis": {
@@ -2615,6 +2617,10 @@
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "inverse",
+          "type": "other"
         }
       },
       "secondary-default": {
@@ -2655,6 +2661,10 @@
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "default",
+          "type": "other"
         }
       },
       "secondary-emphasis": {
@@ -2695,6 +2705,10 @@
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "default",
+          "type": "other"
         }
       },
       "ghost": {
@@ -2725,6 +2739,10 @@
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "default",
+          "type": "other"
         }
       },
       "primary-default-inverse": {
@@ -2755,6 +2773,10 @@
             "value": "{disabled.on-surface-inverse}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "default",
+          "type": "other"
         }
       },
       "secondary-default-inverse": {
@@ -2795,6 +2817,10 @@
             "value": "{disabled.on-surface-inverse}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "inverse",
+          "type": "other"
         }
       },
       "ghost-inverse": {
@@ -2825,6 +2851,10 @@
             "value": "{disabled.on-surface-inverse}",
             "type": "color"
           }
+        },
+        "spinner": {
+          "value": "inverse",
+          "type": "other"
         }
       }
     }
@@ -3144,8 +3174,7 @@
       "bg": {
         "default": {
           "value": "{neutral.surface-lightened}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         }
       },
       "fg": {
@@ -3462,9 +3491,7 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled",
-        "simple-card": "disabled",
-        "progress": "disabled"
+        "semantic generic": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3705,9 +3732,7 @@
         "reference": "source",
         "semantic light": "enabled",
         "semantic dark": "enabled",
-        "semantic generic": "enabled",
-        "simple-card": "disabled",
-        "progress": "disabled"
+        "semantic generic": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
