@@ -3038,15 +3038,15 @@
             "type": "color"
           },
           "focus": {
-            "value": "{neutral.on-surface-default}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "error": {
-            "value": "{neutral.on-surface-default}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "success": {
-            "value": "{neutral.on-surface-default}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "disabled": {
@@ -3128,15 +3128,15 @@
             "type": "color"
           },
           "focus": {
-            "value": "{neutral.on-surface-default}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "error": {
-            "value": "{neutral.on-surface-default}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "success": {
-            "value": "{neutral.on-surface-default}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "disabled": {
