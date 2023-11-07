@@ -2028,17 +2028,17 @@
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-lightened": {
-        "value": "{reference.orange.orange800}",
+        "value": "{reference.orange.orange850}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-default": {
-        "value": "{reference.orange.orange700}",
+        "value": "{reference.orange.orange750}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-darkened": {
-        "value": "{reference.orange.orange600}",
+        "value": "{reference.orange.orange650}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
