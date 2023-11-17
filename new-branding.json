@@ -3347,6 +3347,32 @@
       }
     }
   },
+  "segmented-control": {
+    "segmented-control": {
+      "wrapper": {
+        "bg": {
+          "value": "{neutral.surface-default}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "bg": {
+          "value": "{neutral.surface-lightened}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{neutral.on-surface-default}",
+          "type": "color"
+        }
+      },
+      "inactive": {
+        "fg": {
+          "value": "{neutral.on-surface-subdued-2}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
@@ -3487,7 +3513,8 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "segmented-control": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3735,7 +3762,8 @@
         "reference": "source",
         "semantic light": "enabled",
         "semantic dark": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "segmented-control": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
@@ -3887,7 +3915,8 @@
       "textfield",
       "title-bar",
       "checkbox",
-      "switch"
+      "switch",
+      "segmented-control"
     ]
   }
 }
