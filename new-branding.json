@@ -3071,6 +3071,12 @@
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
           }
+        },
+        "border": {
+          "focus": {
+            "value": "{other.focus}",
+            "type": "color"
+          }
         }
       },
       "lightened": {
@@ -3159,6 +3165,12 @@
           },
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "focus": {
+            "value": "{other.focus}",
             "type": "color"
           }
         }
@@ -3513,8 +3525,7 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled",
-        "segmented-control": "disabled"
+        "semantic generic": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3762,8 +3773,7 @@
         "reference": "source",
         "semantic light": "enabled",
         "semantic dark": "enabled",
-        "semantic generic": "enabled",
-        "segmented-control": "disabled"
+        "semantic generic": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
