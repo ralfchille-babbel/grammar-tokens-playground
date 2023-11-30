@@ -1360,6 +1360,11 @@
         "type": "sizing",
         "description": "8rem"
       },
+      "x40": {
+        "value": "160px",
+        "type": "sizing",
+        "description": "10rem"
+      },
       "x48": {
         "value": "192px",
         "type": "sizing",
