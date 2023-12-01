@@ -2571,7 +2571,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{disabled.surface}",
+            "value": "{disabled.default}",
             "type": "color"
           }
         },
@@ -2581,7 +2581,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{disabled.on-surface-subdued}",
+            "value": "{disabled.on-surface-default}",
             "type": "color"
           }
         },
