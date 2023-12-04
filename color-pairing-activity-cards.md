@@ -14,4 +14,4 @@
 | illustration/emerald/default   | illustration/emerald/light     | illustration/on-surface-dark  |
 | illustration/emerald/dark      | illustration/emerald/default   | illustration/on-surface-light |
 | Fallback                       |                                |                               |
-| illustration/dandelion/default | illustration/dandelion/dark    | illustration/on-surface-dark  |
+| illustration/dandelion/default | illustration/dandelion/light    | illustration/on-surface-dark  |
