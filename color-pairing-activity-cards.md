@@ -1,6 +1,6 @@
 | Background Token                | Silhouette Token                | Foreground Token                |
 |---------------------------------|---------------------------------|---------------------------------|
-||illustration.tangerine.light	  |illustration.tangerine.default	|illustration.on-surface-dark     |
+|`illustration.tangerine.light`	  |illustration.tangerine.default	|illustration.on-surface-dark     |
 |illustration.tangerine.default	  |illustration.tangerine.light	    |illustration.on-surface-dark     |
 |illustration.tangerine.dark	  |illustration.tangerine.default	|illustration.on-surface-light    |
 |illustration.dandelion.light	  |illustration.dandelion.dark	    |illustration.on-surface-dark     |
