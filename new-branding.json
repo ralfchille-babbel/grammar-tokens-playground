@@ -3357,41 +3357,37 @@
     }
   },
   "radio-button": {
-    "radio-button": {
-      "sizes": {
-        "default": {
-          "size": {
-            "value": "24",
-            "type": "measurement"
-          },
-          "iconSize": {
-            "value": "16",
-            "type": "measurement"
-          }
+    "sizes": {
+      "default": {
+        "size": {
+          "value": "24",
+          "type": "measurement"
         },
-        "nested": {
-          "size": {
-            "value": "18",
-            "type": "measurement"
-          },
-          "iconSize": {
-            "value": "12",
-            "type": "measurement"
-          }
+        "padding": {
+          "value": "2",
+          "type": "measurement"
         }
       },
+      "nested": {
+        "size": {
+          "value": "18",
+          "type": "measurement"
+        },
+        "padding": {
+          "value": "1",
+          "type": "measurement"
+        }
+      }
+    },
+    "radiobutton": {
       "default": {
         "background": {
           "unselected": {
             "value": "{accent-inverse.enabled}",
             "type": "color"
           },
-          "checked": {
-            "value": "{accent.enabled}",
-            "type": "color"
-          },
-          "undeterminate": {
-            "value": "{accent.enabled}",
+          "selected": {
+            "value": "{accent-inverse.enabled}",
             "type": "color"
           },
           "error": {
@@ -3404,12 +3400,16 @@
           }
         },
         "foreground": {
-          "checked": {
-            "value": "{accent.on-enabled}",
+          "selected": {
+            "value": "{accent-inverse.on-enabled}",
             "type": "color"
           }
         },
         "border": {
+          "selected": {
+            "value": "{accent-inverse.on-enabled}",
+            "type": "color"
+          },
           "unselected": {
             "value": "{accent-inverse.on-enabled}",
             "type": "color"
@@ -3430,12 +3430,8 @@
             "value": "{accent-inverse.enabled}",
             "type": "color"
           },
-          "checked": {
-            "value": "{accent.enabled}",
-            "type": "color"
-          },
-          "undeterminate": {
-            "value": "{accent.enabled}",
+          "selected": {
+            "value": "{accent-inverse.enabled}",
             "type": "color"
           },
           "error": {
@@ -3448,14 +3444,18 @@
           }
         },
         "foreground": {
-          "checked": {
-            "value": "{accent.on-enabled}",
+          "selected": {
+            "value": "{accent-inverse.on-enabled}",
             "type": "color"
           }
         },
         "border": {
           "unselected": {
             "value": "{accent-inverse.enabled-border-subdued}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{accent-inverse.on-enabled}",
             "type": "color"
           },
           "error": {
