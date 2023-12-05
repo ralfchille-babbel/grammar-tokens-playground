@@ -3235,63 +3235,123 @@
     }
   },
   "checkbox": {
+    "sizes": {
+      "default": {
+        "size": {
+          "value": "24",
+          "type": "measurement"
+        },
+        "iconSize": {
+          "value": "20",
+          "type": "measurement"
+        },
+        "padding": {
+          "value": "2",
+          "type": "measurement"
+        }
+      },
+      "nested": {
+        "size": {
+          "value": "18",
+          "type": "measurement"
+        },
+        "iconSize": {
+          "value": "16",
+          "type": "measurement"
+        },
+        "padding": {
+          "value": "1",
+          "type": "measurement"
+        }
+      }
+    },
     "checkbox": {
-      "unselected": {
-        "bg": {
-          "value": "{accent-inverse.enabled}",
-          "type": "color"
+      "default": {
+        "background": {
+          "unselected": {
+            "value": "{accent-inverse.enabled}",
+            "type": "color"
+          },
+          "checked": {
+            "value": "{accent.enabled}",
+            "type": "color"
+          },
+          "undeterminate": {
+            "value": "{accent.enabled}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{disabled.default}",
+            "type": "color"
+          }
+        },
+        "foreground": {
+          "checked": {
+            "value": "{accent.on-enabled}",
+            "type": "color"
+          }
         },
         "border": {
-          "value": "{accent-inverse.enabled-border}",
-          "type": "color"
+          "unselected": {
+            "value": "{accent-inverse.on-enabled}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.on-surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{disabled.on-surface-default}",
+            "type": "color"
+          }
         }
       },
-      "checked": {
-        "bg": {
-          "value": "{accent-inverse.on-enabled}",
-          "type": "color"
+      "nested": {
+        "background": {
+          "unselected": {
+            "value": "{accent-inverse.enabled}",
+            "type": "color"
+          },
+          "checked": {
+            "value": "{accent.enabled}",
+            "type": "color"
+          },
+          "undeterminate": {
+            "value": "{accent.enabled}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{disabled.default}",
+            "type": "color"
+          }
         },
-        "fg": {
-          "value": "{accent-inverse.enabled}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{accent-inverse.enabled-border}",
-          "type": "color"
-        }
-      },
-      "indeterminate": {
-        "bg": {
-          "value": "{accent-inverse.on-enabled}",
-          "type": "color"
-        },
-        "fg": {
-          "value": "{accent-inverse.enabled}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{accent-inverse.enabled-border}",
-          "type": "color"
-        }
-      },
-      "error": {
-        "bg": {
-          "value": "{feedback.attention.surface}",
-          "type": "color"
+        "foreground": {
+          "checked": {
+            "value": "{accent.on-enabled}",
+            "type": "color"
+          }
         },
         "border": {
-          "value": "{feedback.attention.on-surface}",
-          "type": "color"
-        }
-      },
-      "disabled": {
-        "bg": {
-          "value": "{disabled.default}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{disabled.on-surface-default}",
-          "type": "color"
+          "unselected": {
+            "value": "{accent-inverse.enabled-border-subdued}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.on-surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{disabled.on-surface-default}",
+            "type": "color"
+          }
         }
       }
     }
