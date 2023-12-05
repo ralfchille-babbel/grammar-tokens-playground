@@ -3235,37 +3235,37 @@
     }
   },
   "checkbox": {
-    "checkbox": {
-      "sizes": {
-        "default": {
-          "size": {
-            "value": "24",
-            "type": "measurement"
-          },
-          "iconSize": {
-            "value": "20",
-            "type": "measurement"
-          },
-          "padding": {
-            "value": "2",
-            "type": "measurement"
-          }
+    "sizes": {
+      "default": {
+        "size": {
+          "value": "24",
+          "type": "measurement"
         },
-        "nested": {
-          "size": {
-            "value": "18",
-            "type": "measurement"
-          },
-          "iconSize": {
-            "value": "16",
-            "type": "measurement"
-          },
-          "padding": {
-            "value": "1",
-            "type": "measurement"
-          }
+        "iconSize": {
+          "value": "20",
+          "type": "measurement"
+        },
+        "padding": {
+          "value": "2",
+          "type": "measurement"
         }
       },
+      "nested": {
+        "size": {
+          "value": "18",
+          "type": "measurement"
+        },
+        "iconSize": {
+          "value": "16",
+          "type": "measurement"
+        },
+        "padding": {
+          "value": "1",
+          "type": "measurement"
+        }
+      }
+    },
+    "checkbox": {
       "default": {
         "background": {
           "unselected": {
