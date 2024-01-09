@@ -2983,6 +2983,52 @@
             "type": "color"
           }
         }
+      },
+      "secondary-on-color-inverse": {
+        "bg": {
+          "enabled": {
+            "value": "{other.none}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.3",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "active": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.5",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color"
+          }
+        }
       }
     }
   },
