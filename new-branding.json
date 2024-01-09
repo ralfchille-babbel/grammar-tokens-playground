@@ -2857,6 +2857,132 @@
           "value": "inverse",
           "type": "other"
         }
+      },
+      "primary-on-color": {
+        "bg": {
+          "enabled": {
+            "value": "{illustration.on-surface-dark}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{illustration.on-surface-dark}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.8",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "active": {
+            "value": "{illustration.on-surface-dark}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.6",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color"
+          }
+        }
+      },
+      "secondary-on-color": {
+        "bg": {
+          "enabled": {
+            "value": "{other.none}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.3",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "active": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.5",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{illustration.on-surface-dark}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{illustration.on-surface-dark}",
+            "type": "color"
+          }
+        }
+      },
+      "primary-on-color-inverse": {
+        "bg": {
+          "enabled": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.7",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "active": {
+            "value": "{illustration.on-surface-light}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.5",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{illustration.on-surface-dark}",
+            "type": "color"
+          }
+        }
       }
     }
   },
@@ -3840,6 +3966,7 @@
         "size.x24": "573bd2adff943b7fcfba45da18a735f9cbfdd12e",
         "size.x32": "e5cf5b99209067ef5b6d5119f8e82774a1d8f356",
         "size.x36": "91c21be0ddf69672d1ff60434bb72b07a43a867b",
+        "size.x40": "3ee2103ccb2a82a966962b9c734753bfda8653ff",
         "size.x48": "76aeab5825b7069ade772e2a4a9fdd761f5f9b6b",
         "size.x64": "86bcb0100987636a36d01052111460bea104769f",
         "size.x96": "1c1ce0c1abb16e937d998e687d52e68e724b2354",
@@ -4088,6 +4215,7 @@
         "size.x24": "573bd2adff943b7fcfba45da18a735f9cbfdd12e",
         "size.x32": "e5cf5b99209067ef5b6d5119f8e82774a1d8f356",
         "size.x36": "91c21be0ddf69672d1ff60434bb72b07a43a867b",
+        "size.x40": "3ee2103ccb2a82a966962b9c734753bfda8653ff",
         "size.x48": "76aeab5825b7069ade772e2a4a9fdd761f5f9b6b",
         "size.x64": "86bcb0100987636a36d01052111460bea104769f",
         "size.x96": "1c1ce0c1abb16e937d998e687d52e68e724b2354",
@@ -4115,6 +4243,86 @@
         "border.strong": "227b6b404d5e0f538a79f169da4b218ae4b562b4"
       },
       "group": "Semantic"
+    },
+    {
+      "id": "a5885798e1a2729f47f6579bb386a8a7e7dd6796",
+      "name": "Default",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "button": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:15197:15424",
+      "$figmaModeId": "15197:0",
+      "$figmaVariableReferences": {
+        "button.primary-default.bg.enabled": "2a6493a70707989bb1a5204dea078b1f3d682227",
+        "button.primary-default.bg.hover": "096222010b57333f7fc6b43ccea6181777a36c61",
+        "button.primary-default.bg.active": "cdacc1431476d3ed06f7fab46374f7b23b29eb4e",
+        "button.primary-default.bg.disabled": "267f14fa208751508317861325f035f89c113f0a",
+        "button.primary-default.fg.default": "ec6da8d573226a69eb21415720df76da01a42873",
+        "button.primary-default.fg.disabled": "3f4de3980ef22e22d1d46e7194d6384d064dc339",
+        "button.primary-emphasis.bg.enabled": "ea5dcdd527cecede0610214dbaf56b78f957b479",
+        "button.primary-emphasis.bg.hover": "3fc06d2e88cfbc4cbd05ed912cabe50d7a29b44c",
+        "button.primary-emphasis.bg.active": "1c171f3cc006e368d7fd2e0598bc7f7109882c65",
+        "button.primary-emphasis.bg.disabled": "56fc26cc3cc3eb63cc6e4f813a832a1929a851fc",
+        "button.primary-emphasis.fg.default": "ab3a3989a58fbc87eaef9e6ffddd6542f7448a2a",
+        "button.primary-emphasis.fg.disabled": "d8872958535ce304e7583424ae0fedef58909098",
+        "button.secondary-default.bg.enabled": "9663321977c618c9fea164be41f10a8c17a91acf",
+        "button.secondary-default.bg.hover": "7678da9fa77635813864eda9570b1097d54da13d",
+        "button.secondary-default.bg.active": "47153f7ab74f84f0c3abd717ceb76f7bf0ae2b88",
+        "button.secondary-default.bg.disabled": "b86a474557d88e687e19d575df0d02915a18213e",
+        "button.secondary-default.border.default": "991a76c66d3d6df0720042795125f22a3f100847",
+        "button.secondary-default.border.disabled": "3646d2966d662c61a3bb1b79fd85571d161da67b",
+        "button.secondary-default.fg.default": "e038a4fd11337a264e293a5c0914134ad506ba22",
+        "button.secondary-default.fg.disabled": "5e7085c10694f2cd436470ee231d08cea19d9aea",
+        "button.secondary-emphasis.bg.enabled": "48a8f87b51df26c3263976aca54c617eacb5ad48",
+        "button.secondary-emphasis.bg.hover": "e12a85ddd7e3c7bf0a5899e0e6cf3493a1b9ee79",
+        "button.secondary-emphasis.bg.active": "b167ebe7cd7f3c05cc9495feaf9afa955aa372cd",
+        "button.secondary-emphasis.bg.disabled": "2b941b1ed2b558a0df0cdf6c608679f965523d06",
+        "button.secondary-emphasis.border.default": "7dfdb98f83e1bdad8212371afb1ac48d14d4395e",
+        "button.secondary-emphasis.border.disabled": "e86b3dc5d163ab9916d1ec375afbcc469f59986d",
+        "button.secondary-emphasis.fg.default": "afa03b33356df538da1c505892885498015a632f",
+        "button.secondary-emphasis.fg.disabled": "c2011d051c0b9cd021c13011f75c0093a3cff99b",
+        "button.ghost.bg.enabled": "a8b052d131dde92269b83f2ca8641012eed7808d",
+        "button.ghost.bg.hover": "1880f4166468f1f517a5135c41ec471421803664",
+        "button.ghost.bg.active": "3cb5b4de8e127635acf3c862ad39c30e99aba39b",
+        "button.ghost.bg.disabled": "9645443b419a220e3970958bb32044091b868465",
+        "button.ghost.fg.default": "1dd2b5843580d2917d3a61adedee96f72ebe77e6",
+        "button.ghost.fg.disabled": "ac1f3985155f8435a470ffaa370526c57305c848",
+        "button.primary-default-inverse.bg.enabled": "f72c880af27e3b0b8d27758ac99c2723368f96c7",
+        "button.primary-default-inverse.bg.hover": "60c297d76d36bdc3c2e8b0922c36f41703ace320",
+        "button.primary-default-inverse.bg.active": "c466829268eaf41a567564786d7887176658674d",
+        "button.primary-default-inverse.bg.disabled": "fa0cfb2a145451f289819bcdefcafcc5900f2957",
+        "button.primary-default-inverse.fg.default": "2a67ee9f5d754b3044b8a3eb47516eb82649662f",
+        "button.primary-default-inverse.fg.disabled": "56dd8ad155479052aafb2f0ee6c47718cc1905b0",
+        "button.secondary-default-inverse.bg.enabled": "c97329acf6ca1aa26eda924511835313958f2aa0",
+        "button.secondary-default-inverse.bg.hover": "613843fda9b77bbc81a997c6d10d54ba4de80b0b",
+        "button.secondary-default-inverse.bg.active": "dc70149d971b4680359afeaa51a1b37a8eab4e72",
+        "button.secondary-default-inverse.bg.disabled": "7a1e57ea4830648a80bc1453f2e5952f413ec79e",
+        "button.secondary-default-inverse.border.default": "7893a47242ee3cf98590a22aaa7cc6fcc6748519",
+        "button.secondary-default-inverse.border.disabled": "a275503c6cee98b21887630e4a63c5a66a0f7ffe",
+        "button.secondary-default-inverse.fg.default": "1ae1b1f51c380e7b3b678c2129f4bfa04a76605f",
+        "button.secondary-default-inverse.fg.disabled": "508db9e556385f8623c6c1a1504b2e3179947a00",
+        "button.ghost-inverse.bg.enabled": "6ecd4857a7dcd4a930dfd10f404759f5f5354670",
+        "button.ghost-inverse.bg.hover": "99545697a27c8a2481615727c7f0a36adc30a08e",
+        "button.ghost-inverse.bg.active": "4fe2c0b6c4a5917a94c777346ef0cf04aaf690e5",
+        "button.ghost-inverse.bg.disabled": "daac52b6251689e759d25310a0a13fc2f9474e16",
+        "button.ghost-inverse.fg.default": "1d86254c668242dcc0f134bae399fde16ffd0c80",
+        "button.ghost-inverse.fg.disabled": "d61e4f43cb82285a96cd79d04f6c804b708a7231",
+        "button.primary-on-color.bg.enabled": "932922d42f5fe73c17a7fc60bafa4c3995509882",
+        "button.primary-on-color.bg.hover": "0bc60f710aa3fdff87c7cdcda6547fa6a5a6192a",
+        "button.primary-on-color.bg.active": "526f00c98e22f7917675398e3f38aa26f4ee8898",
+        "button.primary-on-color.fg.default": "f9af9931164a1381304d6eb5d02b34a42063fb2b",
+        "button.secondary-on-color.bg.enabled": "9fd871b5b585692bd6c8ba8b667c65eaf0f61177",
+        "button.secondary-on-color.bg.hover": "c835dee2a2259dd121c2045110496513457af804",
+        "button.secondary-on-color.bg.active": "0ef11afb6813b07eba92ada2e4f21aee20816c49",
+        "button.secondary-on-color.border.default": "aace2f623c3ca7153958b73ee52a17b5c76a2ccb",
+        "button.secondary-on-color.fg.default": "129b3e41b5e134f97c508bd4c14f0f7c6bfd378c",
+        "button.primary-on-color-inverse.bg.enabled": "30093d6de06bf107d35a6c472645e50d90e535e7",
+        "button.primary-on-color-inverse.bg.hover": "f72649588e48914b4d08d25ca60eec24aef34bb5",
+        "button.primary-on-color-inverse.bg.active": "80f836d8765b677b4ac11c79c16c9a4b2b36a382",
+        "button.primary-on-color-inverse.fg.default": "9783b03f44f49ad48aac64f34683a851b6686a38"
+      },
+      "group": "Components"
     }
   ],
   "$metadata": {
