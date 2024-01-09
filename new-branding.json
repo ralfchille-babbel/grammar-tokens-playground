@@ -2997,7 +2997,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "0.3",
+                  "value": "0.2",
                   "space": "lch"
                 }
               }
@@ -3010,7 +3010,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "0.5",
+                  "value": "0.4",
                   "space": "lch"
                 }
               }
@@ -4366,7 +4366,12 @@
         "button.primary-on-color-inverse.bg.enabled": "30093d6de06bf107d35a6c472645e50d90e535e7",
         "button.primary-on-color-inverse.bg.hover": "f72649588e48914b4d08d25ca60eec24aef34bb5",
         "button.primary-on-color-inverse.bg.active": "80f836d8765b677b4ac11c79c16c9a4b2b36a382",
-        "button.primary-on-color-inverse.fg.default": "9783b03f44f49ad48aac64f34683a851b6686a38"
+        "button.primary-on-color-inverse.fg.default": "9783b03f44f49ad48aac64f34683a851b6686a38",
+        "button.secondary-on-color-inverse.bg.enabled": "0656da04f9ef5bf56a93817c9e7bd8354f920504",
+        "button.secondary-on-color-inverse.bg.hover": "112b0317b7438d4bce51b68550f88710942a46a9",
+        "button.secondary-on-color-inverse.bg.active": "84de4652a490ff86eade03a1c2c336457c9de91a",
+        "button.secondary-on-color-inverse.border.default": "455fb739c941b5ab03b6d0348d683fc2b73456b9",
+        "button.secondary-on-color-inverse.fg.default": "e7822d9056fc5178fc472052930303516e82c16d"
       },
       "group": "Components"
     }
