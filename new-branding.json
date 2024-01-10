@@ -2001,6 +2001,18 @@
       "translucent-dark": {
         "value": "#14141480",
         "type": "color"
+      },
+      "on-illustration-dark-100": {
+        "value": "#151515",
+        "type": "color"
+      },
+      "on-illustration-dark-90": {
+        "value": "#151515E6",
+        "type": "color"
+      },
+      "on-illustration-dark-80": {
+        "value": "#151515CC",
+        "type": "color"
       }
     }
   },
@@ -2872,7 +2884,7 @@
                 "modify": {
                   "type": "alpha",
                   "value": "0.8",
-                  "space": "lch"
+                  "space": "srgb"
                 }
               }
             }
@@ -2885,7 +2897,7 @@
                 "modify": {
                   "type": "alpha",
                   "value": "0.6",
-                  "space": "lch"
+                  "space": "srgb"
                 }
               }
             }
