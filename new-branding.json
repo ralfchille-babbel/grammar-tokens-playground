@@ -2013,6 +2013,74 @@
       "on-illustration-dark-80": {
         "value": "#151515CC",
         "type": "color"
+      },
+      "on-illustration-dark-70": {
+        "value": "#151515B3",
+        "type": "color"
+      },
+      "on-illustration-dark-60": {
+        "value": "#15151599",
+        "type": "color"
+      },
+      "on-illustration-dark-50": {
+        "value": "#15151580",
+        "type": "color"
+      },
+      "on-illustration-dark-40": {
+        "value": "#15151566",
+        "type": "color"
+      },
+      "on-illustration-dark-30": {
+        "value": "#1515154c",
+        "type": "color"
+      },
+      "on-illustration-dark-20": {
+        "value": "#15151533",
+        "type": "color"
+      },
+      "on-illustration-dark-10": {
+        "value": "#15151519",
+        "type": "color"
+      },
+      "on-illustration-light-100": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "on-illustration-light-90": {
+        "value": "#ffffffE6",
+        "type": "color"
+      },
+      "on-illustration-light-80": {
+        "value": "#ffffffCC",
+        "type": "color"
+      },
+      "on-illustration-light-70": {
+        "value": "#ffffffB3",
+        "type": "color"
+      },
+      "on-illustration-light-60": {
+        "value": "#ffffff99",
+        "type": "color"
+      },
+      "on-illustration-light-50": {
+        "value": "#ffffff80",
+        "type": "color"
+      },
+      "on-illustration-light-40": {
+        "value": "#ffffff66",
+        "type": "color"
+      },
+      "on-illustration-light-30": {
+        "value": "#ffffff4c",
+        "type": "color"
+      },
+      "on-illustration-light-20": {
+        "value": "#ffffff33",
+        "type": "color"
+      },
+      "on-illustration-light-10": {
+        "value": "#ffffff19",
+        "type": "color"
       }
     }
   },
