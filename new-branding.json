@@ -3031,11 +3031,19 @@
           "active": {
             "value": "{hidden.on-illustration-dark-60}",
             "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-dark-30}",
+            "type": "color"
           }
         },
         "fg": {
           "default": {
             "value": "{hidden.on-illustration-light-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-light-40}",
             "type": "color"
           }
         }
@@ -3047,41 +3055,35 @@
             "type": "color"
           },
           "hover": {
-            "value": "{illustration.on-surface-light}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.3",
-                  "space": "lch"
-                }
-              }
-            }
+            "value": "{hidden.on-illustration-light-30}",
+            "type": "color"
           },
           "active": {
-            "value": "{illustration.on-surface-light}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.5",
-                  "space": "lch"
-                }
-              }
-            }
+            "value": "{hidden.on-illustration-light-50}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{other.none}",
+            "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{illustration.on-surface-dark}",
+            "value": "{hidden.on-illustration-dark-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-dark-30}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{illustration.on-surface-dark}",
+            "value": "{hidden.on-illustration-dark-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-dark-30}",
             "type": "color"
           }
         }
@@ -3089,39 +3091,31 @@
       "primary-on-color-inverse": {
         "bg": {
           "enabled": {
-            "value": "{illustration.on-surface-light}",
+            "value": "{hidden.on-illustration-light-100}",
             "type": "color"
           },
           "hover": {
-            "value": "{illustration.on-surface-light}",
+            "value": "{hidden.on-illustration-light-70}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.7",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
           },
           "active": {
-            "value": "{illustration.on-surface-light}",
+            "value": "{hidden.on-illustration-light-50}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.5",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
+          },
+          "disabled": {
+            "value": "{other.none}",
+            "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{illustration.on-surface-dark}",
+            "value": "{hidden.on-illustration-dark-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-dark-40}",
             "type": "color"
           }
         }
@@ -3133,41 +3127,104 @@
             "type": "color"
           },
           "hover": {
-            "value": "{illustration.on-surface-light}",
+            "value": "{hidden.on-illustration-light-20}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.2",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
           },
           "active": {
-            "value": "{illustration.on-surface-light}",
+            "value": "{hidden.on-illustration-light-40}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.4",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-light-40}",
+            "type": "color",
+            "$extensions": {}
           }
         },
         "border": {
           "default": {
-            "value": "{illustration.on-surface-light}",
+            "value": "{hidden.on-illustration-light-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-light-40}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{illustration.on-surface-light}",
+            "value": "{hidden.on-illustration-light-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-light-40}",
+            "type": "color"
+          }
+        }
+      },
+      "ghost-on-color": {
+        "bg": {
+          "enabled": {
+            "value": "{other.none}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{hidden.on-illustration-light-30}",
+            "type": "color",
+            "$extensions": {}
+          },
+          "active": {
+            "value": "{hidden.on-illustration-light-50}",
+            "type": "color",
+            "$extensions": {}
+          },
+          "disabled": {
+            "value": "{other.none}",
+            "type": "color",
+            "$extensions": {}
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{hidden.on-illustration-dark-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-dark-30}",
+            "type": "color"
+          }
+        }
+      },
+      "ghost-on-color-inverse": {
+        "bg": {
+          "enabled": {
+            "value": "{other.none}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{hidden.on-illustration-dark-20}",
+            "type": "color",
+            "$extensions": {}
+          },
+          "active": {
+            "value": "{hidden.on-illustration-dark-40}",
+            "type": "color",
+            "$extensions": {}
+          },
+          "disabled": {
+            "value": "{other.none}",
+            "type": "color",
+            "$extensions": {}
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{hidden.on-illustration-light-100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{hidden.on-illustration-light-40}",
             "type": "color"
           }
         }
@@ -4133,6 +4190,26 @@
         "illustration.on-surface-light": "921ee95e3b52c69aa3d9f04c728872aa2dc6c96e",
         "hidden.translucent-light": "0e202ecb1e48cb74a7a5a3757fac017da139c9d0",
         "hidden.translucent-dark": "72c9a1cad079f56d0b06313548098bb4c4c5bed6",
+        "hidden.on-illustration-dark-100": "478c7dc37e425aa933cfb07d96c6b374bc1eab05",
+        "hidden.on-illustration-dark-90": "b75bb39cd989d6b477a481000668dc862c2cdae8",
+        "hidden.on-illustration-dark-80": "1bb522d3cad04dddab8e74b95b8199f62e5d304c",
+        "hidden.on-illustration-dark-70": "1c31ce3b6520cf8b7b66d958159ae7d2faa6a762",
+        "hidden.on-illustration-dark-60": "0078046ff2a87a4c3629e47f16c858e89018bc60",
+        "hidden.on-illustration-dark-50": "f5361160d4c46014b4387faa7918deaceca622cb",
+        "hidden.on-illustration-dark-40": "719db667946a1619abb38371e466aaed322176b5",
+        "hidden.on-illustration-dark-30": "c0013dedc32ee12c1d79474476e77eca0b0a2572",
+        "hidden.on-illustration-dark-20": "f4d52b71f30df2cccd7db94bcaf66a011015d7f7",
+        "hidden.on-illustration-dark-10": "7a054532ab4d6f5633371460e8739a47844eec96",
+        "hidden.on-illustration-light-100": "0df014bdc85a213742bac095dab60d1cf03121b1",
+        "hidden.on-illustration-light-90": "b084091675c9e6e30e3bddb2aa45a54987b692dc",
+        "hidden.on-illustration-light-80": "f06b76ccb7be626f46ab2e80d0adcc9945f985bd",
+        "hidden.on-illustration-light-70": "c1dd70ed3ef2c46c4bd6f2920874d4881d896155",
+        "hidden.on-illustration-light-60": "c333e150b7454e0ec39b9abc495f8cc9864b9c82",
+        "hidden.on-illustration-light-50": "3daa58d15ea5c8d62b27aaa07505a0c188885673",
+        "hidden.on-illustration-light-40": "cf157aa75aa9531144f1f7adc19cdddce7563a91",
+        "hidden.on-illustration-light-30": "74ed8debaf733daee59518da9ee57754199f857a",
+        "hidden.on-illustration-light-20": "19712a2c376a381494c601ee92afc17c5ea6aab3",
+        "hidden.on-illustration-light-10": "ab7179210a9c6eece3e5615bbb65074b591747bc",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
         "radius.medium": "9c45c28315749b78551c4f3fd24d3c29c9822dd8",
@@ -4154,7 +4231,7 @@
         "size.x24": "573bd2adff943b7fcfba45da18a735f9cbfdd12e",
         "size.x32": "e5cf5b99209067ef5b6d5119f8e82774a1d8f356",
         "size.x36": "91c21be0ddf69672d1ff60434bb72b07a43a867b",
-        "size.x40": "3ee2103ccb2a82a966962b9c734753bfda8653ff",
+        "size.x40": "316de98621384d8431cb2dee97c1bf2fce64c4bf",
         "size.x48": "76aeab5825b7069ade772e2a4a9fdd761f5f9b6b",
         "size.x64": "86bcb0100987636a36d01052111460bea104769f",
         "size.x96": "1c1ce0c1abb16e937d998e687d52e68e724b2354",
@@ -4382,6 +4459,26 @@
         "illustration.on-surface-light": "921ee95e3b52c69aa3d9f04c728872aa2dc6c96e",
         "hidden.translucent-light": "0e202ecb1e48cb74a7a5a3757fac017da139c9d0",
         "hidden.translucent-dark": "72c9a1cad079f56d0b06313548098bb4c4c5bed6",
+        "hidden.on-illustration-dark-100": "478c7dc37e425aa933cfb07d96c6b374bc1eab05",
+        "hidden.on-illustration-dark-90": "b75bb39cd989d6b477a481000668dc862c2cdae8",
+        "hidden.on-illustration-dark-80": "1bb522d3cad04dddab8e74b95b8199f62e5d304c",
+        "hidden.on-illustration-dark-70": "1c31ce3b6520cf8b7b66d958159ae7d2faa6a762",
+        "hidden.on-illustration-dark-60": "0078046ff2a87a4c3629e47f16c858e89018bc60",
+        "hidden.on-illustration-dark-50": "f5361160d4c46014b4387faa7918deaceca622cb",
+        "hidden.on-illustration-dark-40": "719db667946a1619abb38371e466aaed322176b5",
+        "hidden.on-illustration-dark-30": "c0013dedc32ee12c1d79474476e77eca0b0a2572",
+        "hidden.on-illustration-dark-20": "f4d52b71f30df2cccd7db94bcaf66a011015d7f7",
+        "hidden.on-illustration-dark-10": "7a054532ab4d6f5633371460e8739a47844eec96",
+        "hidden.on-illustration-light-100": "0df014bdc85a213742bac095dab60d1cf03121b1",
+        "hidden.on-illustration-light-90": "b084091675c9e6e30e3bddb2aa45a54987b692dc",
+        "hidden.on-illustration-light-80": "f06b76ccb7be626f46ab2e80d0adcc9945f985bd",
+        "hidden.on-illustration-light-70": "c1dd70ed3ef2c46c4bd6f2920874d4881d896155",
+        "hidden.on-illustration-light-60": "c333e150b7454e0ec39b9abc495f8cc9864b9c82",
+        "hidden.on-illustration-light-50": "3daa58d15ea5c8d62b27aaa07505a0c188885673",
+        "hidden.on-illustration-light-40": "cf157aa75aa9531144f1f7adc19cdddce7563a91",
+        "hidden.on-illustration-light-30": "74ed8debaf733daee59518da9ee57754199f857a",
+        "hidden.on-illustration-light-20": "19712a2c376a381494c601ee92afc17c5ea6aab3",
+        "hidden.on-illustration-light-10": "ab7179210a9c6eece3e5615bbb65074b591747bc",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
         "radius.medium": "9c45c28315749b78551c4f3fd24d3c29c9822dd8",
@@ -4403,7 +4500,7 @@
         "size.x24": "573bd2adff943b7fcfba45da18a735f9cbfdd12e",
         "size.x32": "e5cf5b99209067ef5b6d5119f8e82774a1d8f356",
         "size.x36": "91c21be0ddf69672d1ff60434bb72b07a43a867b",
-        "size.x40": "3ee2103ccb2a82a966962b9c734753bfda8653ff",
+        "size.x40": "316de98621384d8431cb2dee97c1bf2fce64c4bf",
         "size.x48": "76aeab5825b7069ade772e2a4a9fdd761f5f9b6b",
         "size.x64": "86bcb0100987636a36d01052111460bea104769f",
         "size.x96": "1c1ce0c1abb16e937d998e687d52e68e724b2354",
