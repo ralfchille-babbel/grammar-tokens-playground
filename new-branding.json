@@ -3333,7 +3333,7 @@
   "toast": {
     "default": {
       "background": {
-        "value": "{neutral.surface-inverse-lightened}",
+        "value": "{neutral.surface-inverse-default}",
         "type": "color"
       },
       "foreground": {
@@ -3341,13 +3341,33 @@
         "type": "color"
       }
     },
-    "lesson": {
+    "success": {
       "background": {
-        "value": "{accent.surface-default}",
+        "value": "{feedback.success.on-surface}",
         "type": "color"
       },
       "foreground": {
-        "value": "{neutral.on-surface-default}",
+        "value": "{feedback.success.surface}",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "background": {
+        "value": "{feedback.warning.on-surface}",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{feedback.success.surface}",
+        "type": "color"
+      }
+    },
+    "attention": {
+      "background": {
+        "value": "{feedback.attention.on-surface}",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{feedback.attention.surface}",
         "type": "color"
       }
     }
