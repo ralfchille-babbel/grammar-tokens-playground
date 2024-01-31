@@ -3439,11 +3439,15 @@
           "disabled": {
             "value": "{disabled.surface}",
             "type": "color"
+          },
+          "read-only": {
+            "value": "{disabled.surface}",
+            "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{neutral.on-surface-subdued-2}",
+            "value": "{disabled.on-surface-subdued}",
             "type": "color"
           },
           "focus": {
@@ -3465,31 +3469,39 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
+          },
+          "read-only": {
+            "value": "{neutral.on-surface-subdued-1}",
+            "type": "color"
           }
         },
         "label": {
           "default": {
-            "value": "{neutral.on-surface-subdued-2}",
+            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           },
           "focus": {
-            "value": "{neutral.on-surface-subdued-2}",
+            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           },
           "filled": {
-            "value": "{neutral.on-surface-subdued-2}",
+            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           },
           "error": {
-            "value": "{neutral.on-surface-subdued-2}",
+            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           },
           "success": {
-            "value": "{neutral.on-surface-subdued-2}",
+            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           },
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
+            "type": "color"
+          },
+          "read-only": {
+            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           }
         },
@@ -3517,11 +3529,39 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
+          },
+          "read-only": {
+            "value": "{disabled.on-surface-subdued}",
+            "type": "color"
           }
         },
         "border": {
+          "default": {
+            "value": "{lines.default}",
+            "type": "color"
+          },
           "focus": {
             "value": "{other.focus}",
+            "type": "color"
+          },
+          "filled": {
+            "value": "{lines.default}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.on-surface}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{feedback.success.on-surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{other.none}",
+            "type": "color"
+          },
+          "read-only": {
+            "value": "{other.none}",
             "type": "color"
           }
         }
@@ -3551,11 +3591,15 @@
           "disabled": {
             "value": "{disabled.default}",
             "type": "color"
+          },
+          "read-only": {
+            "value": "{disabled.default}",
+            "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{neutral.on-surface-subdued-2}",
+            "value": "{disabled.on-surface-subdued}",
             "type": "color"
           },
           "focus": {
@@ -3576,6 +3620,10 @@
           },
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
+            "type": "color"
+          },
+          "read-only": {
+            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           }
         },
@@ -3603,6 +3651,10 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
+          },
+          "read-only": {
+            "value": "{neutral.on-surface-subdued-1}",
+            "type": "color"
           }
         },
         "helptext": {
@@ -3629,11 +3681,39 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
+          },
+          "read-only": {
+            "value": "{disabled.on-surface-subdued}",
+            "type": "color"
           }
         },
         "border": {
+          "default": {
+            "value": "{lines.default}",
+            "type": "color"
+          },
           "focus": {
             "value": "{other.focus}",
+            "type": "color"
+          },
+          "filled": {
+            "value": "{lines.default}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.attention.on-surface}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{feedback.success.on-surface}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{other.none}",
+            "type": "color"
+          },
+          "read-only": {
+            "value": "{other.none}",
             "type": "color"
           }
         }
