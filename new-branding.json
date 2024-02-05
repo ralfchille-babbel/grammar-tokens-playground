@@ -3357,7 +3357,7 @@
         "type": "color"
       },
       "foreground": {
-        "value": "{feedback.success.surface}",
+        "value": "{feedback.warning.surface}",
         "type": "color"
       }
     },
