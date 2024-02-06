@@ -3,11 +3,11 @@
     "font": {
       "family": {
         "grotesk": {
-          "value": "Graphik LC",
+          "value": "Graphik Babbel LCG",
           "type": "fontFamilies"
         },
         "serif": {
-          "value": "Feature Text",
+          "value": "Feature Text LC",
           "type": "fontFamilies"
         }
       },
@@ -17,7 +17,7 @@
           "type": "fontWeights"
         },
         "regular-italic": {
-          "value": "Regular Italic",
+          "value": "Italic",
           "type": "fontWeights"
         },
         "semibold": {
@@ -208,7 +208,7 @@
           "type": "fontWeights"
         },
         "regular-italic": {
-          "value": "Regular Italic",
+          "value": "Italic",
           "type": "fontWeights"
         }
       }
