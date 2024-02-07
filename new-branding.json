@@ -3721,22 +3721,30 @@
     }
   },
   "title-bar": {
-    "title-bar": {
-      "bg": {
-        "default": {
-          "value": "{neutral.surface-lightened}",
-          "type": "color"
-        }
-      },
+    "default": {
       "fg": {
-        "default": {
-          "value": "{neutral.on-surface-default}",
-          "type": "color"
-        },
-        "enabled": {
-          "value": "{accent.enabled}",
-          "type": "color"
-        }
+        "value": "{neutral.on-surface-default}",
+        "type": "color"
+      },
+      "bg": {
+        "value": "{neutral.surface-lightened}",
+        "type": "color"
+      }
+    },
+    "darkened": {
+      "fg": {
+        "value": "{neutral.on-surface-default}",
+        "type": "color"
+      },
+      "bg": {
+        "value": "{neutral.surface-default}",
+        "type": "color"
+      }
+    },
+    "enabled": {
+      "fg": {
+        "value": "{accent.enabled}",
+        "type": "color"
       }
     }
   },
