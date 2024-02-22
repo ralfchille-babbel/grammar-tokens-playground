@@ -3,11 +3,11 @@
     "font": {
       "family": {
         "grotesk": {
-          "value": "Graphik LC",
+          "value": "Graphik Babbel LCG",
           "type": "fontFamilies"
         },
         "serif": {
-          "value": "Feature Text",
+          "value": "Feature Text LC",
           "type": "fontFamilies"
         }
       },
@@ -17,7 +17,7 @@
           "type": "fontWeights"
         },
         "regular-italic": {
-          "value": "Regular Italic",
+          "value": "Italic",
           "type": "fontWeights"
         },
         "semibold": {
@@ -427,7 +427,7 @@
         "type": "borderRadius"
       }
     },
-    "reference": {
+    "color": {
       "orange": {
         "orange25": {
           "value": "#FFF8F5",
@@ -1118,14 +1118,16 @@
     },
     "elevation": {
       "none": {
-        "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "rgba(0,0,0,0)",
-          "type": "dropShadow"
-        },
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0,0,0,0)",
+            "type": "dropShadow"
+          }
+        ],
         "type": "boxShadow"
       },
       "very-low": {
@@ -1657,225 +1659,225 @@
   "semantic light": {
     "brand": {
       "default": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color"
       },
       "on-default": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "enabled": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color"
       },
       "hover": {
-        "value": "{reference.orange.orange550}",
+        "value": "{color.orange.orange550}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.orange.orange600}",
+        "value": "{color.orange.orange600}",
         "type": "color"
       },
       "on-enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "surface-lightened": {
-        "value": "{reference.orange.orange50}",
+        "value": "{color.orange.orange50}",
         "type": "color"
       },
       "surface-default": {
-        "value": "{reference.orange.orange100}",
+        "value": "{color.orange.orange100}",
         "type": "color"
       },
       "surface-darkened": {
-        "value": "{reference.orange.orange150}",
+        "value": "{color.orange.orange150}",
         "type": "color"
       },
       "on-surface-default": {
-        "value": "{reference.orange.orange900}",
+        "value": "{color.orange.orange900}",
         "type": "color"
       },
       "on-surface-subdued-1": {
-        "value": "{reference.orange.orange800}",
+        "value": "{color.orange.orange800}",
         "type": "color"
       },
       "on-surface-subdued-2": {
-        "value": "{reference.orange.orange650}",
+        "value": "{color.orange.orange650}",
         "type": "color"
       }
     },
     "brand-inverse": {
       "enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "hover": {
-        "value": "{reference.orange.orange25}",
+        "value": "{color.orange.orange25}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.orange.orange50}",
+        "value": "{color.orange.orange50}",
         "type": "color"
       },
       "on-enabled": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color"
       }
     },
     "accent": {
       "enabled": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       },
       "hover": {
-        "value": "{reference.gray.gray850}",
+        "value": "{color.gray.gray850}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.gray.gray750}",
+        "value": "{color.gray.gray750}",
         "type": "color"
       },
       "on-enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       }
     },
     "accent-inverse": {
       "enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "enabled-darkened": {
-        "value": "{reference.gray.gray50}",
+        "value": "{color.gray.gray50}",
         "type": "color"
       },
       "enabled-border": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       },
       "enabled-border-subdued": {
-        "value": "{reference.gray.gray250}",
+        "value": "{color.gray.gray250}",
         "type": "color"
       },
       "on-enabled": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       },
       "hover": {
-        "value": "{reference.gray.gray100}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.gray.gray200}",
+        "value": "{color.gray.gray200}",
         "type": "color"
       },
       "selected-border": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       }
     },
     "neutral": {
       "app-background": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "surface-lightened": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "surface-default": {
-        "value": "{reference.gray.gray50}",
+        "value": "{color.gray.gray50}",
         "type": "color"
       },
       "surface-darkened-1": {
-        "value": "{reference.gray.gray100}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "surface-darkened-2": {
-        "value": "{reference.gray.gray150}",
+        "value": "{color.gray.gray150}",
         "type": "color"
       },
       "on-surface-default": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       },
       "on-surface-subdued-1": {
-        "value": "{reference.gray.gray800}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "on-surface-subdued-2": {
-        "value": "{reference.gray.gray650}",
+        "value": "{color.gray.gray650}",
         "type": "color"
       },
       "surface-inverse-default": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       },
       "surface-inverse-lightened": {
-        "value": "{reference.gray.gray800}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{reference.gray.gray25}",
+        "value": "{color.gray.gray25}",
         "type": "color"
       }
     },
     "feedback": {
       "success": {
         "surface": {
-          "value": "{reference.green.green100}",
+          "value": "{color.green.green100}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.green.green500}",
+          "value": "{color.green.green500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.green.green800}",
+          "value": "{color.green.green800}",
           "type": "color"
         }
       },
       "warning": {
         "surface": {
-          "value": "{reference.yellow.yellow100}",
+          "value": "{color.yellow.yellow100}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.yellow.yellow500}",
+          "value": "{color.yellow.yellow500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.yellow.yellow800}",
+          "value": "{color.yellow.yellow800}",
           "type": "color"
         }
       },
       "attention": {
         "surface": {
-          "value": "{reference.red.red100}",
+          "value": "{color.red.red100}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.red.red500}",
+          "value": "{color.red.red500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.red.red700}",
+          "value": "{color.red.red700}",
           "type": "color"
         }
       },
       "on-default": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       }
     },
     "other": {
       "none": {
-        "value": "{reference.transparent}",
+        "value": "{color.transparent}",
         "type": "color"
       },
       "focus": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color"
       },
       "overlay-background": {
@@ -1889,107 +1891,107 @@
     },
     "disabled": {
       "default": {
-        "value": "{reference.gray.gray200}",
+        "value": "{color.gray.gray200}",
         "type": "color"
       },
       "surface": {
-        "value": "{reference.gray.gray100}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "on-surface-default": {
-        "value": "{reference.gray.gray550}",
+        "value": "{color.gray.gray550}",
         "type": "color"
       },
       "on-surface-subdued": {
-        "value": "{reference.gray.gray400}",
+        "value": "{color.gray.gray400}",
         "type": "color"
       },
       "surface-inverse": {
-        "value": "{reference.gray.gray800}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{reference.gray.gray650}",
+        "value": "{color.gray.gray650}",
         "type": "color"
       }
     },
     "lines": {
       "low-contrast": {
-        "value": "{reference.gray.gray150}",
+        "value": "{color.gray.gray150}",
         "type": "color"
       },
       "default": {
-        "value": "{reference.gray.gray250}",
+        "value": "{color.gray.gray250}",
         "type": "color"
       },
       "high-contrast": {
-        "value": "{reference.gray.gray450}",
+        "value": "{color.gray.gray450}",
         "type": "color"
       }
     },
     "illustration": {
       "tangerine": {
         "light": {
-          "value": "{reference.tangerine.tangerine200}",
+          "value": "{color.tangerine.tangerine200}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.tangerine.tangerine500}",
+          "value": "{color.tangerine.tangerine500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.tangerine.tangerine800}",
+          "value": "{color.tangerine.tangerine800}",
           "type": "color"
         }
       },
       "dandelion": {
         "light": {
-          "value": "{reference.dandelion.dandelion300}",
+          "value": "{color.dandelion.dandelion300}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.dandelion.dandelion500}",
+          "value": "{color.dandelion.dandelion500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.dandelion.dandelion700}",
+          "value": "{color.dandelion.dandelion700}",
           "type": "color"
         }
       },
       "violet": {
         "light": {
-          "value": "{reference.violet.violet200}",
+          "value": "{color.violet.violet200}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.violet.violet500}",
+          "value": "{color.violet.violet500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.violet.violet800}",
+          "value": "{color.violet.violet800}",
           "type": "color"
         }
       },
       "emerald": {
         "light": {
-          "value": "{reference.emerald.emerald200}",
+          "value": "{color.emerald.emerald200}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.emerald.emerald500}",
+          "value": "{color.emerald.emerald500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.emerald.emerald800}",
+          "value": "{color.emerald.emerald800}",
           "type": "color"
         }
       },
       "on-surface-dark": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       },
       "on-surface-light": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       }
     },
@@ -2087,241 +2089,241 @@
   "semantic dark": {
     "brand": {
       "default": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color",
         "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text."
       },
       "on-default": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color",
         "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text."
       },
       "enabled": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color",
         "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text."
       },
       "hover": {
-        "value": "{reference.orange.orange600}",
+        "value": "{color.orange.orange600}",
         "type": "color",
         "description": "Hover state of the default brand color. Only us in interactive elements that provide a hover state."
       },
       "active": {
-        "value": "{reference.orange.orange700}",
+        "value": "{color.orange.orange700}",
         "type": "color",
         "description": "Active state of the default brand color. Only us in interactive elements that provide an active state."
       },
       "on-enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color",
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-lightened": {
-        "value": "{reference.orange.orange850}",
+        "value": "{color.orange.orange850}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-default": {
-        "value": "{reference.orange.orange750}",
+        "value": "{color.orange.orange750}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-darkened": {
-        "value": "{reference.orange.orange650}",
+        "value": "{color.orange.orange650}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "on-surface-default": {
-        "value": "{reference.orange.orange50}",
+        "value": "{color.orange.orange50}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
       "on-surface-subdued-1": {
-        "value": "{reference.orange.orange100}",
+        "value": "{color.orange.orange100}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
       "on-surface-subdued-2": {
-        "value": "{reference.orange.orange200}",
+        "value": "{color.orange.orange200}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       }
     },
     "brand-inverse": {
       "enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "hover": {
-        "value": "{reference.orange.orange50}",
+        "value": "{color.orange.orange50}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.orange.orange100}",
+        "value": "{color.orange.orange100}",
         "type": "color"
       },
       "on-enabled": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color"
       }
     },
     "accent": {
       "enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "hover": {
-        "value": "{reference.gray.gray100}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.gray.gray200}",
+        "value": "{color.gray.gray200}",
         "type": "color"
       },
       "on-enabled": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.black}",
         "type": "color"
       }
     },
     "accent-inverse": {
       "enabled": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.black}",
         "type": "color"
       },
       "enabled-darkened": {
-        "value": "{reference.gray.gray850}",
+        "value": "{color.gray.gray900}",
         "type": "color"
       },
       "enabled-border": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "enabled-border-subdued": {
-        "value": "{reference.gray.gray650}",
+        "value": "{color.gray.gray650}",
         "type": "color"
       },
       "on-enabled": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "hover": {
-        "value": "{reference.gray.gray800}",
+        "value": "{color.gray.gray900}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.gray.gray700}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "selected-border": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       }
     },
     "neutral": {
       "on-surface-default": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "on-surface-subdued-1": {
-        "value": "{reference.gray.gray100}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "on-surface-subdued-2": {
-        "value": "{reference.gray.gray300}",
+        "value": "{color.gray.gray300}",
         "type": "color"
       },
       "app-background": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.black}",
         "type": "color"
       },
       "surface-lightened": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.black}",
         "type": "color"
       },
       "surface-default": {
-        "value": "{reference.gray.gray850}",
+        "value": "{color.gray.gray900}",
         "type": "color"
       },
       "surface-darkened-1": {
-        "value": "{reference.gray.gray750}",
+        "value": "{color.gray.gray850}",
         "type": "color"
       },
       "surface-darkened-2": {
-        "value": "{reference.gray.gray700}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "surface-inverse-default": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "surface-inverse-lightened": {
-        "value": "{reference.gray.gray100}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{reference.black}",
+        "value": "{color.black}",
         "type": "color"
       }
     },
     "feedback": {
       "success": {
         "surface": {
-          "value": "{reference.green.green900}",
+          "value": "{color.green.green900}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.green.green500}",
+          "value": "{color.green.green500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.green.green200}",
+          "value": "{color.green.green200}",
           "type": "color"
         }
       },
       "warning": {
         "surface": {
-          "value": "{reference.yellow.yellow900}",
+          "value": "{color.yellow.yellow900}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.yellow.yellow500}",
+          "value": "{color.yellow.yellow500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.yellow.yellow200}",
+          "value": "{color.yellow.yellow200}",
           "type": "color"
         }
       },
       "attention": {
         "surface": {
-          "value": "{reference.red.red800}",
+          "value": "{color.red.red800}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.red.red500}",
+          "value": "{color.red.red500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.red.red200}",
+          "value": "{color.red.red200}",
           "type": "color"
         }
       },
       "on-default": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       }
     },
     "other": {
       "none": {
-        "value": "{reference.transparent}",
+        "value": "{color.transparent}",
         "type": "color"
       },
       "focus": {
-        "value": "{reference.orange.orange500}",
+        "value": "{color.orange.orange500}",
         "type": "color"
       },
       "overlay-background": {
-        "value": "#23222099",
+        "value": "#34332F80",
         "type": "color"
       },
       "onboarding-background": {
@@ -2331,107 +2333,107 @@
     },
     "disabled": {
       "default": {
-        "value": "{reference.gray.gray750}",
+        "value": "{color.gray.gray750}",
         "type": "color"
       },
       "surface": {
-        "value": "{reference.gray.gray850}",
+        "value": "{color.gray.gray850}",
         "type": "color"
       },
       "on-surface-default": {
-        "value": "{reference.gray.gray600}",
+        "value": "{color.gray.gray600}",
         "type": "color"
       },
       "on-surface-subdued": {
-        "value": "{reference.gray.gray700}",
+        "value": "{color.gray.gray700}",
         "type": "color"
       },
       "surface-inverse": {
-        "value": "{reference.gray.gray400}",
+        "value": "{color.gray.gray400}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{reference.gray.gray600}",
+        "value": "{color.gray.gray600}",
         "type": "color"
       }
     },
     "lines": {
       "low-contrast": {
-        "value": "{reference.gray.gray800}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "default": {
-        "value": "{reference.gray.gray650}",
+        "value": "{color.gray.gray650}",
         "type": "color"
       },
       "high-contrast": {
-        "value": "{reference.gray.gray550}",
+        "value": "{color.gray.gray550}",
         "type": "color"
       }
     },
     "illustration": {
       "tangerine": {
         "light": {
-          "value": "{reference.tangerine.tangerine200}",
+          "value": "{color.tangerine.tangerine200}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.tangerine.tangerine500}",
+          "value": "{color.tangerine.tangerine500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.tangerine.tangerine800}",
+          "value": "{color.tangerine.tangerine800}",
           "type": "color"
         }
       },
       "dandelion": {
         "light": {
-          "value": "{reference.dandelion.dandelion300}",
+          "value": "{color.dandelion.dandelion300}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.dandelion.dandelion500}",
+          "value": "{color.dandelion.dandelion500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.dandelion.dandelion700}",
+          "value": "{color.dandelion.dandelion700}",
           "type": "color"
         }
       },
       "violet": {
         "light": {
-          "value": "{reference.violet.violet200}",
+          "value": "{color.violet.violet200}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.violet.violet500}",
+          "value": "{color.violet.violet500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.violet.violet800}",
+          "value": "{color.violet.violet800}",
           "type": "color"
         }
       },
       "emerald": {
         "light": {
-          "value": "{reference.emerald.emerald200}",
+          "value": "{color.emerald.emerald200}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.emerald.emerald500}",
+          "value": "{color.emerald.emerald500}",
           "type": "color"
         },
         "dark": {
-          "value": "{reference.emerald.emerald800}",
+          "value": "{color.emerald.emerald800}",
           "type": "color"
         }
       },
       "on-surface-dark": {
-        "value": "{reference.gray.gray950}",
+        "value": "{color.gray.gray950}",
         "type": "color"
       },
       "on-surface-light": {
-        "value": "{reference.white}",
+        "value": "{color.white}",
         "type": "color"
       }
     },
@@ -3333,7 +3335,7 @@
   "toast": {
     "default": {
       "background": {
-        "value": "{neutral.surface-inverse-default}",
+        "value": "{neutral.surface-inverse-lightened}",
         "type": "color"
       },
       "foreground": {
@@ -3341,33 +3343,13 @@
         "type": "color"
       }
     },
-    "success": {
+    "lesson": {
       "background": {
-        "value": "{feedback.success.on-surface}",
+        "value": "{accent.surface-default}",
         "type": "color"
       },
       "foreground": {
-        "value": "{feedback.success.surface}",
-        "type": "color"
-      }
-    },
-    "warning": {
-      "background": {
-        "value": "{feedback.warning.on-surface}",
-        "type": "color"
-      },
-      "foreground": {
-        "value": "{feedback.warning.surface}",
-        "type": "color"
-      }
-    },
-    "attention": {
-      "background": {
-        "value": "{feedback.attention.on-surface}",
-        "type": "color"
-      },
-      "foreground": {
-        "value": "{feedback.attention.surface}",
+        "value": "{neutral.on-surface-default}",
         "type": "color"
       }
     }
@@ -3439,15 +3421,11 @@
           "disabled": {
             "value": "{disabled.surface}",
             "type": "color"
-          },
-          "read-only": {
-            "value": "{disabled.surface}",
-            "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{disabled.on-surface-subdued}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "focus": {
@@ -3469,39 +3447,31 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
-          },
-          "read-only": {
-            "value": "{neutral.on-surface-subdued-1}",
-            "type": "color"
           }
         },
         "label": {
           "default": {
-            "value": "{neutral.on-surface-subdued-1}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "focus": {
-            "value": "{neutral.on-surface-subdued-1}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "filled": {
-            "value": "{neutral.on-surface-subdued-1}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "error": {
-            "value": "{neutral.on-surface-subdued-1}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "success": {
-            "value": "{neutral.on-surface-subdued-1}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
-            "type": "color"
-          },
-          "read-only": {
-            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           }
         },
@@ -3529,39 +3499,11 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
-          },
-          "read-only": {
-            "value": "{disabled.on-surface-subdued}",
-            "type": "color"
           }
         },
         "border": {
-          "default": {
-            "value": "{lines.default}",
-            "type": "color"
-          },
           "focus": {
             "value": "{other.focus}",
-            "type": "color"
-          },
-          "filled": {
-            "value": "{lines.default}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{feedback.attention.on-surface}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{feedback.success.on-surface}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{other.none}",
-            "type": "color"
-          },
-          "read-only": {
-            "value": "{other.none}",
             "type": "color"
           }
         }
@@ -3591,15 +3533,11 @@
           "disabled": {
             "value": "{disabled.default}",
             "type": "color"
-          },
-          "read-only": {
-            "value": "{disabled.default}",
-            "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{disabled.on-surface-subdued}",
+            "value": "{neutral.on-surface-subdued-2}",
             "type": "color"
           },
           "focus": {
@@ -3620,10 +3558,6 @@
           },
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
-            "type": "color"
-          },
-          "read-only": {
-            "value": "{neutral.on-surface-subdued-1}",
             "type": "color"
           }
         },
@@ -3651,10 +3585,6 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
-          },
-          "read-only": {
-            "value": "{neutral.on-surface-subdued-1}",
-            "type": "color"
           }
         },
         "helptext": {
@@ -3681,39 +3611,11 @@
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
             "type": "color"
-          },
-          "read-only": {
-            "value": "{disabled.on-surface-subdued}",
-            "type": "color"
           }
         },
         "border": {
-          "default": {
-            "value": "{lines.default}",
-            "type": "color"
-          },
           "focus": {
             "value": "{other.focus}",
-            "type": "color"
-          },
-          "filled": {
-            "value": "{lines.default}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{feedback.attention.on-surface}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{feedback.success.on-surface}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{other.none}",
-            "type": "color"
-          },
-          "read-only": {
-            "value": "{other.none}",
             "type": "color"
           }
         }
@@ -3721,30 +3623,22 @@
     }
   },
   "title-bar": {
-    "default": {
-      "fg": {
-        "value": "{neutral.on-surface-default}",
-        "type": "color"
-      },
+    "title-bar": {
       "bg": {
-        "value": "{neutral.surface-lightened}",
-        "type": "color"
-      }
-    },
-    "darkened": {
-      "fg": {
-        "value": "{neutral.on-surface-default}",
-        "type": "color"
+        "default": {
+          "value": "{neutral.surface-lightened}",
+          "type": "color"
+        }
       },
-      "bg": {
-        "value": "{neutral.surface-default}",
-        "type": "color"
-      }
-    },
-    "enabled": {
       "fg": {
-        "value": "{accent.enabled}",
-        "type": "color"
+        "default": {
+          "value": "{neutral.on-surface-default}",
+          "type": "color"
+        },
+        "enabled": {
+          "value": "{accent.enabled}",
+          "type": "color"
+        }
       }
     }
   },
@@ -4114,6 +4008,11 @@
     {
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
       "name": "Light Mode",
+      "selectedTokenSets": {
+        "reference": "enabled",
+        "semantic light": "enabled",
+        "semantic generic": "enabled"
+      },
       "$figmaStyleReferences": {
         "brand.hover": "S:908a63692dc5e5393730ed7161bc05354a9a7d3d,",
         "brand.active": "S:5536cb549bb6330ea96eb603252c22edd16e8c81,",
@@ -4247,13 +4146,6 @@
         "body-text-italic.xlarge": "S:85e1cde4cdc4807ad97c0310fe9cd954c197f5cb,",
         "disabled.on-surface-default": "S:dee5e1e37d204a9883abd8af2cf2664ae0da3d78,"
       },
-      "selectedTokenSets": {
-        "reference": "source",
-        "semantic light": "enabled",
-        "semantic generic": "enabled"
-      },
-      "$figmaCollectionId": "VariableCollectionId:3103:7313",
-      "$figmaModeId": "3103:4",
       "$figmaVariableReferences": {
         "brand.default": "6d095d81bc7885f1b9561b0143bafba3fdd02159",
         "brand.on-default": "4dae0f02e688a267bb87fb7d79ab0ddc27e8a19c",
@@ -4399,13 +4291,134 @@
         "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a",
         "border.light": "3520835edac4f5f180d83e94c22bc73f2605bfcf",
         "border.default": "e5f4ec18a9665695f550d9b0bddd7223bcef779e",
-        "border.strong": "227b6b404d5e0f538a79f169da4b218ae4b562b4"
+        "border.strong": "227b6b404d5e0f538a79f169da4b218ae4b562b4",
+        "radius-size.x05": "5739f6d04efb15410d9926c422ad67856d61d5ed",
+        "radius-size.x1": "08890567bf4413cce45504d9fb9b907b863e677b",
+        "radius-size.x2": "d1488eda009a5f3f6c9f7b3eb57bbcb7c189eb83",
+        "radius-size.x3": "f7310c49b0f4e6e806e6dddcb79f9ae12f7edaf3",
+        "radius-size.x4": "3ac61506353ee430f1765859d02250f3b3b43ffd",
+        "radius-size.x5": "c381204112f65ad3f075de9a5ff37438f9a6398a",
+        "radius-size.x1000": "9a519e6a795a8bf6330b769c5ce164102118e90e",
+        "color.orange.orange25": "98c7c978cb2671a0a94d35d9a543f50d91e48c88",
+        "color.orange.orange50": "5392e74bfa4b4f298a7f823bcad29d1abb8aee02",
+        "color.orange.orange100": "d3c3f43c2ffbb3b783ddc2bbc2195a12de338c0f",
+        "color.orange.orange150": "7afaa3e8167c740c5129a0c81a4a3ee93301b246",
+        "color.orange.orange200": "2dc489358d4a8755cea39b42a921224ba52db336",
+        "color.orange.orange250": "bbe53405d334df1491ef7719ab0dc2b9cb526abc",
+        "color.orange.orange300": "938a6887b1ffc37f5f8d582f024bf0a7b29d7ed3",
+        "color.orange.orange350": "1dda7ffd9dae999120b981e02bc7925ed7f41e16",
+        "color.orange.orange400": "25f5eb7925ece324b5788de8955fdbefd5c10446",
+        "color.orange.orange450": "5c096141054315d140998b18ac5001bd61824f86",
+        "color.orange.orange500": "427d85fb7e4dcb0809847101e31603525039cc92",
+        "color.orange.orange550": "adfd581d6cd63754227cf7eff88ca53bf0ff29da",
+        "color.orange.orange600": "1a81efcb41b727104c68d416d058455ec358f21b",
+        "color.orange.orange650": "c0a4d3ef8bc9f2db577e5b5709dd45bf07583978",
+        "color.orange.orange700": "c105f037a47eb92a4e6bfc117d6f90d87be6bb09",
+        "color.orange.orange750": "867756025ae39dd96fa3f4535afcd6083320ecfb",
+        "color.orange.orange800": "6ff8238c9f4db8051d6fa6c4d683543f4962d852",
+        "color.orange.orange850": "9fdd95ff20f1867aff613b6942e759bf9b8f08a6",
+        "color.orange.orange900": "9a133fa9d0ba4aa96a2d107af2c62f6587e12266",
+        "color.orange.orange990": "d68b11d03d967d27ba2f008dac9876101c4de159",
+        "color.gray.gray25": "50850081e6d2af82bc0aca3d2a864bcde7cafb3c",
+        "color.gray.gray50": "c815a9ec5cbfce0b1fee2b427d68f9430fd57a37",
+        "color.gray.gray100": "11b232d09dc9afa54da37c4e8a219c2a78124c5f",
+        "color.gray.gray150": "a43596450eb0f5e79022dc6400b99b29e506fbf3",
+        "color.gray.gray200": "3632f454ba03182754326402e84ee6c6d0280ed1",
+        "color.gray.gray250": "46c88789b94e763a797cd1d3ef362a51d49d17b8",
+        "color.gray.gray300": "2b2fa9986dc5570bdedf70d4aa2ae4efbf93a7b9",
+        "color.gray.gray350": "cfd4ec7b3d5e0771723c6460295d62cfc581ec33",
+        "color.gray.gray400": "41a790dd941c344774e3e021b7a74f0daed58297",
+        "color.gray.gray450": "f0c64faad4798c9db2b0bebac40f921dc3e4a1c5",
+        "color.gray.gray500": "83eda1c74792726ca1c88b3eca4005a6b028d94e",
+        "color.gray.gray550": "2ffad37f11673aa03246e63da64094f0bf247790",
+        "color.gray.gray600": "2fc43f041ea8e8da0b0d38e1f1a2a688a2e92e6d",
+        "color.gray.gray650": "0c77a70cde4d9959577c9c9c142d354b3470ce21",
+        "color.gray.gray700": "762a6026e6a82e91a1034a9950a80821177f7cba",
+        "color.gray.gray750": "9a498f92d2475a6b6c8c7baa875d1d971b4ca9cf",
+        "color.gray.gray800": "14bc97b7aa7a7012543d07f82d5fe9917191bcf1",
+        "color.gray.gray850": "f0ed21de70e9f662b1001ad0a15f8e81f0bab2de",
+        "color.gray.gray900": "dcd05ab4e30298c66287f51709c60af90155afc0",
+        "color.gray.gray950": "23fd336855fc6db54967f2ebfc33913332847067",
+        "color.black": "86fade6e3d6778d8dbb14d0e25734d2855404018",
+        "color.white": "31744596dc4b7466026eb51fe1bd60ebfe4b75ca",
+        "color.tangerine.tangerine100": "c11bfe45044bf14025cb8dbb6b4aca84ae16d078",
+        "color.tangerine.tangerine200": "7019585cb11b2ccbf67bf0769eacb4beefd1549c",
+        "color.tangerine.tangerine300": "9be1d36340430ac86a3c62f03b09943177249a52",
+        "color.tangerine.tangerine400": "7e4e51923ad0b8e55d5e2b98c96164fe2fde7a34",
+        "color.tangerine.tangerine500": "0c41df91780317982bb0592c3bc07d6506a459f0",
+        "color.tangerine.tangerine600": "bd0aa3773b500209dcaed07724f85a0523e08830",
+        "color.tangerine.tangerine700": "522a5783ece8a5d4a00489185832d1eaf9a00fcb",
+        "color.tangerine.tangerine800": "ba26e834e853590ba8eb9c4c8d439a8e37c454f3",
+        "color.tangerine.tangerine900": "8968465bde1aee1b0c9276212a88d0ba87d04ac6",
+        "color.violet.violet100": "f8242882a40f42ebf935958940016ddeeb186199",
+        "color.violet.violet200": "777cd349862a29d11ee89dc0d3a5f7a1a5a6f72c",
+        "color.violet.violet300": "7acb2c107ae0e3f9c9b019044e02cad166176d33",
+        "color.violet.violet400": "e59dbd91a14fd46c550ccbbc25b87a5945a10133",
+        "color.violet.violet500": "860939dd0fa136fc27f6e16451072a7adec7b649",
+        "color.violet.violet600": "4628f4908533422a4867daa1c69b854aae163b56",
+        "color.violet.violet700": "e95109a56b0ceafead769ab62f3a04cf4ec85e80",
+        "color.violet.violet800": "d19b73cc07c703e85fa1c0c938c0cc77d87ba4bd",
+        "color.violet.violet900": "0d72540889203f37097a36c4094bf70bb8ca8a35",
+        "color.emerald.emerald100": "ffa8d38c5d843feaa97d44a184a719bb36e28948",
+        "color.emerald.emerald200": "b7d112bdb14f7195d08cab42d3890ac5ef3b7830",
+        "color.emerald.emerald300": "1f68bb563e1c158a2899032481f288ada7ae4bb9",
+        "color.emerald.emerald400": "844cbbaf5a4f17cbe75a669b3518c1513d9575a9",
+        "color.emerald.emerald500": "f1f89024d0e652447b011c9bda37e61c851ba5a1",
+        "color.emerald.emerald600": "5f8bdad3adadaac1a07dba7e6903dece9a84df53",
+        "color.emerald.emerald700": "43d70954bb0b6dfbfce2515376605fb443f7273d",
+        "color.emerald.emerald800": "00c41ff18b84a841f64399989f6cd5dd7d0e0b09",
+        "color.emerald.emerald900": "b31139d545aa0cf4277270739e7ad7c21190d86d",
+        "color.dandelion.dandelion100": "c3a03b37bf58d9d20daaf5abcabe83c75229dbb4",
+        "color.dandelion.dandelion200": "478f9f1c685653df1948a239f04badbe929232ad",
+        "color.dandelion.dandelion300": "2819d27a6f0c2a92fdbc9f275d38036c3ef774d2",
+        "color.dandelion.dandelion400": "564ac75c0ce4de363a85ec2cb3d7d190471a06c7",
+        "color.dandelion.dandelion500": "3437e541ba9822119768f90f5f4d69b950dd061a",
+        "color.dandelion.dandelion600": "4c12fdd09b71a0596a34404233c95ab1bb56603c",
+        "color.dandelion.dandelion700": "3796ef10966834aae91cd6992cc6c073d178163c",
+        "color.dandelion.dandelion800": "3e16887fda29c9688e5852644e93a0f5a3cb62e7",
+        "color.dandelion.dandelion900": "1c658a989315755851e9467be238e9a574246b75",
+        "color.red.red100": "93f93242f1fb476201e1aad66e48e1a9e1cc3253",
+        "color.red.red200": "415ecd1689b97f7d0cc11beb0a439e85bef95328",
+        "color.red.red300": "3a01ff3b3cd91cb59eadd60146170a52909e9d39",
+        "color.red.red400": "1a7351994569a2420a0f5baf341b51db508cb9cd",
+        "color.red.red500": "063f6823e64450ec5db6cff6711de5ca60eeea4d",
+        "color.red.red600": "701378efd2a89ef123eb9a111c22033e58169e08",
+        "color.red.red700": "fd59898cea82efaabbdf6f4fde1d12c255ad9cb1",
+        "color.red.red800": "7e32cb075ee57a904dce8f52a6d4c992d9473706",
+        "color.red.red900": "b81506b83a1ba79fae613b237d5781a67977c458",
+        "color.yellow.yellow100": "160705f2a1c27106e053d900a80d29dbd496f08b",
+        "color.yellow.yellow200": "5f142461d7cf07cacd980cead02c305a5481c2e0",
+        "color.yellow.yellow300": "5a340abedde841956017e8891c20e7a75d6c2ca2",
+        "color.yellow.yellow400": "e93f5d1c06cd886e248007eebfd6fbbc5c47a80f",
+        "color.yellow.yellow500": "2b261e9922d3e6f6504d68593b8470a601d5e4cd",
+        "color.yellow.yellow600": "740ead3ad7ac9a0e5605f2e2d2b51318c976a164",
+        "color.yellow.yellow700": "f6fefa449cee1420cb1d4a1faa4c45fd1474618b",
+        "color.yellow.yellow800": "70303ba598479ec5be4f079bf259cfcaac1740bc",
+        "color.yellow.yellow900": "8af94850e07a565601716bd508ab247e0e1c3f67",
+        "color.green.green100": "9efb09bedecadfafbb81bd68729635c6a0a6c8a5",
+        "color.green.green200": "d3983c04db8c7713b9ac2f8a0156c967288675cb",
+        "color.green.green300": "18e49d76c7a3c7ab00b6d2e01d6a6c76e27bf44e",
+        "color.green.green400": "38b72bdf8f649bc9125978bf1ff5cd76e0c38c66",
+        "color.green.green500": "a3e75b0589b5bb1eaeb02d8818260b909a12f397",
+        "color.green.green600": "ecebd6ef768d00216cc47de4bfd39a4e778585ee",
+        "color.green.green700": "f2a908d5203ab6d38aec848f03babf70ad949d74",
+        "color.green.green800": "1f90cb187e403f2ef488aec418129b1ac019b933",
+        "color.green.green900": "8580c351be0b300231a01cb15b2728896d76036c",
+        "color.transparent": "b08f7bc2c94d74fe52d0afa74a507ab246b84415"
       },
+      "$figmaCollectionId": "VariableCollectionId:3103:7313",
+      "$figmaModeId": "3103:4",
       "group": "Semantic"
     },
     {
       "id": "289acfd682c0a1c0c09463f4cb684caca1a270f3",
       "name": "Dark Mode",
+      "selectedTokenSets": {
+        "reference": "enabled",
+        "semantic dark": "enabled",
+        "semantic generic": "enabled",
+        "semantic light": "enabled"
+      },
       "$figmaStyleReferences": {
         "elevation.none": "S:fad78639a2a4d5a86aff46eef7a5914cfe2f420c,",
         "elevation1.none": "S:98b173e54876c0b3568908ce9a02fdb22ee04b56,",
@@ -4515,14 +4528,6 @@
         "accent-inverse.on-enabled": "S:f3a3c53570efb90436846e2057c0c911297a2757,",
         "disabled.on-surface-default": "S:1fac65014b79b43603f90616523f09f1a2ea3f48,"
       },
-      "selectedTokenSets": {
-        "reference": "source",
-        "semantic light": "enabled",
-        "semantic dark": "enabled",
-        "semantic generic": "enabled"
-      },
-      "$figmaCollectionId": "VariableCollectionId:3103:7313",
-      "$figmaModeId": "3103:5",
       "$figmaVariableReferences": {
         "brand.default": "6d095d81bc7885f1b9561b0143bafba3fdd02159",
         "brand.on-default": "4dae0f02e688a267bb87fb7d79ab0ddc27e8a19c",
@@ -4668,8 +4673,123 @@
         "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a",
         "border.light": "3520835edac4f5f180d83e94c22bc73f2605bfcf",
         "border.default": "e5f4ec18a9665695f550d9b0bddd7223bcef779e",
-        "border.strong": "227b6b404d5e0f538a79f169da4b218ae4b562b4"
+        "border.strong": "227b6b404d5e0f538a79f169da4b218ae4b562b4",
+        "radius-size.x05": "5739f6d04efb15410d9926c422ad67856d61d5ed",
+        "radius-size.x1": "08890567bf4413cce45504d9fb9b907b863e677b",
+        "radius-size.x2": "d1488eda009a5f3f6c9f7b3eb57bbcb7c189eb83",
+        "radius-size.x3": "f7310c49b0f4e6e806e6dddcb79f9ae12f7edaf3",
+        "radius-size.x4": "3ac61506353ee430f1765859d02250f3b3b43ffd",
+        "radius-size.x5": "c381204112f65ad3f075de9a5ff37438f9a6398a",
+        "radius-size.x1000": "9a519e6a795a8bf6330b769c5ce164102118e90e",
+        "color.orange.orange25": "98c7c978cb2671a0a94d35d9a543f50d91e48c88",
+        "color.orange.orange50": "5392e74bfa4b4f298a7f823bcad29d1abb8aee02",
+        "color.orange.orange100": "d3c3f43c2ffbb3b783ddc2bbc2195a12de338c0f",
+        "color.orange.orange150": "7afaa3e8167c740c5129a0c81a4a3ee93301b246",
+        "color.orange.orange200": "2dc489358d4a8755cea39b42a921224ba52db336",
+        "color.orange.orange250": "bbe53405d334df1491ef7719ab0dc2b9cb526abc",
+        "color.orange.orange300": "938a6887b1ffc37f5f8d582f024bf0a7b29d7ed3",
+        "color.orange.orange350": "1dda7ffd9dae999120b981e02bc7925ed7f41e16",
+        "color.orange.orange400": "25f5eb7925ece324b5788de8955fdbefd5c10446",
+        "color.orange.orange450": "5c096141054315d140998b18ac5001bd61824f86",
+        "color.orange.orange500": "427d85fb7e4dcb0809847101e31603525039cc92",
+        "color.orange.orange550": "adfd581d6cd63754227cf7eff88ca53bf0ff29da",
+        "color.orange.orange600": "1a81efcb41b727104c68d416d058455ec358f21b",
+        "color.orange.orange650": "c0a4d3ef8bc9f2db577e5b5709dd45bf07583978",
+        "color.orange.orange700": "c105f037a47eb92a4e6bfc117d6f90d87be6bb09",
+        "color.orange.orange750": "867756025ae39dd96fa3f4535afcd6083320ecfb",
+        "color.orange.orange800": "6ff8238c9f4db8051d6fa6c4d683543f4962d852",
+        "color.orange.orange850": "9fdd95ff20f1867aff613b6942e759bf9b8f08a6",
+        "color.orange.orange900": "9a133fa9d0ba4aa96a2d107af2c62f6587e12266",
+        "color.orange.orange990": "d68b11d03d967d27ba2f008dac9876101c4de159",
+        "color.gray.gray25": "50850081e6d2af82bc0aca3d2a864bcde7cafb3c",
+        "color.gray.gray50": "c815a9ec5cbfce0b1fee2b427d68f9430fd57a37",
+        "color.gray.gray100": "11b232d09dc9afa54da37c4e8a219c2a78124c5f",
+        "color.gray.gray150": "a43596450eb0f5e79022dc6400b99b29e506fbf3",
+        "color.gray.gray200": "3632f454ba03182754326402e84ee6c6d0280ed1",
+        "color.gray.gray250": "46c88789b94e763a797cd1d3ef362a51d49d17b8",
+        "color.gray.gray300": "2b2fa9986dc5570bdedf70d4aa2ae4efbf93a7b9",
+        "color.gray.gray350": "cfd4ec7b3d5e0771723c6460295d62cfc581ec33",
+        "color.gray.gray400": "41a790dd941c344774e3e021b7a74f0daed58297",
+        "color.gray.gray450": "f0c64faad4798c9db2b0bebac40f921dc3e4a1c5",
+        "color.gray.gray500": "83eda1c74792726ca1c88b3eca4005a6b028d94e",
+        "color.gray.gray550": "2ffad37f11673aa03246e63da64094f0bf247790",
+        "color.gray.gray600": "2fc43f041ea8e8da0b0d38e1f1a2a688a2e92e6d",
+        "color.gray.gray650": "0c77a70cde4d9959577c9c9c142d354b3470ce21",
+        "color.gray.gray700": "762a6026e6a82e91a1034a9950a80821177f7cba",
+        "color.gray.gray750": "9a498f92d2475a6b6c8c7baa875d1d971b4ca9cf",
+        "color.gray.gray800": "14bc97b7aa7a7012543d07f82d5fe9917191bcf1",
+        "color.gray.gray850": "f0ed21de70e9f662b1001ad0a15f8e81f0bab2de",
+        "color.gray.gray900": "dcd05ab4e30298c66287f51709c60af90155afc0",
+        "color.gray.gray950": "23fd336855fc6db54967f2ebfc33913332847067",
+        "color.black": "86fade6e3d6778d8dbb14d0e25734d2855404018",
+        "color.white": "31744596dc4b7466026eb51fe1bd60ebfe4b75ca",
+        "color.tangerine.tangerine100": "c11bfe45044bf14025cb8dbb6b4aca84ae16d078",
+        "color.tangerine.tangerine200": "7019585cb11b2ccbf67bf0769eacb4beefd1549c",
+        "color.tangerine.tangerine300": "9be1d36340430ac86a3c62f03b09943177249a52",
+        "color.tangerine.tangerine400": "7e4e51923ad0b8e55d5e2b98c96164fe2fde7a34",
+        "color.tangerine.tangerine500": "0c41df91780317982bb0592c3bc07d6506a459f0",
+        "color.tangerine.tangerine600": "bd0aa3773b500209dcaed07724f85a0523e08830",
+        "color.tangerine.tangerine700": "522a5783ece8a5d4a00489185832d1eaf9a00fcb",
+        "color.tangerine.tangerine800": "ba26e834e853590ba8eb9c4c8d439a8e37c454f3",
+        "color.tangerine.tangerine900": "8968465bde1aee1b0c9276212a88d0ba87d04ac6",
+        "color.violet.violet100": "f8242882a40f42ebf935958940016ddeeb186199",
+        "color.violet.violet200": "777cd349862a29d11ee89dc0d3a5f7a1a5a6f72c",
+        "color.violet.violet300": "7acb2c107ae0e3f9c9b019044e02cad166176d33",
+        "color.violet.violet400": "e59dbd91a14fd46c550ccbbc25b87a5945a10133",
+        "color.violet.violet500": "860939dd0fa136fc27f6e16451072a7adec7b649",
+        "color.violet.violet600": "4628f4908533422a4867daa1c69b854aae163b56",
+        "color.violet.violet700": "e95109a56b0ceafead769ab62f3a04cf4ec85e80",
+        "color.violet.violet800": "d19b73cc07c703e85fa1c0c938c0cc77d87ba4bd",
+        "color.violet.violet900": "0d72540889203f37097a36c4094bf70bb8ca8a35",
+        "color.emerald.emerald100": "ffa8d38c5d843feaa97d44a184a719bb36e28948",
+        "color.emerald.emerald200": "b7d112bdb14f7195d08cab42d3890ac5ef3b7830",
+        "color.emerald.emerald300": "1f68bb563e1c158a2899032481f288ada7ae4bb9",
+        "color.emerald.emerald400": "844cbbaf5a4f17cbe75a669b3518c1513d9575a9",
+        "color.emerald.emerald500": "f1f89024d0e652447b011c9bda37e61c851ba5a1",
+        "color.emerald.emerald600": "5f8bdad3adadaac1a07dba7e6903dece9a84df53",
+        "color.emerald.emerald700": "43d70954bb0b6dfbfce2515376605fb443f7273d",
+        "color.emerald.emerald800": "00c41ff18b84a841f64399989f6cd5dd7d0e0b09",
+        "color.emerald.emerald900": "b31139d545aa0cf4277270739e7ad7c21190d86d",
+        "color.dandelion.dandelion100": "c3a03b37bf58d9d20daaf5abcabe83c75229dbb4",
+        "color.dandelion.dandelion200": "478f9f1c685653df1948a239f04badbe929232ad",
+        "color.dandelion.dandelion300": "2819d27a6f0c2a92fdbc9f275d38036c3ef774d2",
+        "color.dandelion.dandelion400": "564ac75c0ce4de363a85ec2cb3d7d190471a06c7",
+        "color.dandelion.dandelion500": "3437e541ba9822119768f90f5f4d69b950dd061a",
+        "color.dandelion.dandelion600": "4c12fdd09b71a0596a34404233c95ab1bb56603c",
+        "color.dandelion.dandelion700": "3796ef10966834aae91cd6992cc6c073d178163c",
+        "color.dandelion.dandelion800": "3e16887fda29c9688e5852644e93a0f5a3cb62e7",
+        "color.dandelion.dandelion900": "1c658a989315755851e9467be238e9a574246b75",
+        "color.red.red100": "93f93242f1fb476201e1aad66e48e1a9e1cc3253",
+        "color.red.red200": "415ecd1689b97f7d0cc11beb0a439e85bef95328",
+        "color.red.red300": "3a01ff3b3cd91cb59eadd60146170a52909e9d39",
+        "color.red.red400": "1a7351994569a2420a0f5baf341b51db508cb9cd",
+        "color.red.red500": "063f6823e64450ec5db6cff6711de5ca60eeea4d",
+        "color.red.red600": "701378efd2a89ef123eb9a111c22033e58169e08",
+        "color.red.red700": "fd59898cea82efaabbdf6f4fde1d12c255ad9cb1",
+        "color.red.red800": "7e32cb075ee57a904dce8f52a6d4c992d9473706",
+        "color.red.red900": "b81506b83a1ba79fae613b237d5781a67977c458",
+        "color.yellow.yellow100": "160705f2a1c27106e053d900a80d29dbd496f08b",
+        "color.yellow.yellow200": "5f142461d7cf07cacd980cead02c305a5481c2e0",
+        "color.yellow.yellow300": "5a340abedde841956017e8891c20e7a75d6c2ca2",
+        "color.yellow.yellow400": "e93f5d1c06cd886e248007eebfd6fbbc5c47a80f",
+        "color.yellow.yellow500": "2b261e9922d3e6f6504d68593b8470a601d5e4cd",
+        "color.yellow.yellow600": "740ead3ad7ac9a0e5605f2e2d2b51318c976a164",
+        "color.yellow.yellow700": "f6fefa449cee1420cb1d4a1faa4c45fd1474618b",
+        "color.yellow.yellow800": "70303ba598479ec5be4f079bf259cfcaac1740bc",
+        "color.yellow.yellow900": "8af94850e07a565601716bd508ab247e0e1c3f67",
+        "color.green.green100": "9efb09bedecadfafbb81bd68729635c6a0a6c8a5",
+        "color.green.green200": "d3983c04db8c7713b9ac2f8a0156c967288675cb",
+        "color.green.green300": "18e49d76c7a3c7ab00b6d2e01d6a6c76e27bf44e",
+        "color.green.green400": "38b72bdf8f649bc9125978bf1ff5cd76e0c38c66",
+        "color.green.green500": "a3e75b0589b5bb1eaeb02d8818260b909a12f397",
+        "color.green.green600": "ecebd6ef768d00216cc47de4bfd39a4e778585ee",
+        "color.green.green700": "f2a908d5203ab6d38aec848f03babf70ad949d74",
+        "color.green.green800": "1f90cb187e403f2ef488aec418129b1ac019b933",
+        "color.green.green900": "8580c351be0b300231a01cb15b2728896d76036c",
+        "color.transparent": "b08f7bc2c94d74fe52d0afa74a507ab246b84415"
       },
+      "$figmaCollectionId": "VariableCollectionId:3103:7313",
+      "$figmaModeId": "3103:5",
       "group": "Semantic"
     }
   ],
