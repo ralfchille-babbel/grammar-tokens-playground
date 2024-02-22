@@ -4009,7 +4009,7 @@
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
       "name": "Light Mode",
       "selectedTokenSets": {
-        "reference": "enabled",
+        "reference": "source",
         "semantic light": "enabled",
         "semantic generic": "enabled"
       },
@@ -4414,7 +4414,7 @@
       "id": "289acfd682c0a1c0c09463f4cb684caca1a270f3",
       "name": "Dark Mode",
       "selectedTokenSets": {
-        "reference": "enabled",
+        "reference": "source",
         "semantic dark": "enabled",
         "semantic generic": "enabled",
         "semantic light": "enabled"
