@@ -1654,6 +1654,112 @@
         },
         "type": "typography"
       }
+    },
+    "short-text-italic": {
+      "xsmall": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x4}",
+          "fontSize": "{font.font-size.x3}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x4}",
+          "fontSize": "{font.font-size.x3_5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x5}",
+          "fontSize": "{font.font-size.x4}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}",
+          "textDecoration": ""
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x6}",
+          "fontSize": "{font.font-size.x5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      },
+      "xlarge": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x8}",
+          "fontSize": "{font.font-size.x6}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      }
+    },
+    "short-text-strong-italic": {
+      "xsmall": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x4}",
+          "fontSize": "{font.font-size.x3}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}",
+          "letterSpacing": ""
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x4}",
+          "fontSize": "{font.font-size.x3_5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x5}",
+          "fontSize": "{font.font-size.x4}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x6}",
+          "fontSize": "{font.font-size.x5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      },
+      "xlarge": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x8}",
+          "fontSize": "{font.font-size.x6}",
+          "paragraphSpacing": "{font.paragraph-spacing.x0}"
+        },
+        "type": "typography"
+      }
     }
   },
   "semantic light": {
@@ -2606,6 +2712,50 @@
           },
           "disabled": {
             "value": "{disabled.on-surface-subdued}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "activiy-card": {
+    "variant1": {
+      "default": {
+        "background": {
+          "enabled": {
+            "value": "#",
+            "type": "color"
+          }
+        },
+        "silhouette": {
+          "enabled": {
+            "value": "#",
+            "type": "color"
+          }
+        },
+        "foreground": {
+          "enabled": {
+            "value": "#",
+            "type": "color"
+          }
+        }
+      },
+      "completed": {
+        "background": {
+          "enabled": {
+            "value": "#",
+            "type": "color"
+          }
+        },
+        "silhouette": {
+          "enabled": {
+            "value": "#",
+            "type": "color"
+          }
+        },
+        "foreground": {
+          "enabled": {
+            "value": "#",
             "type": "color"
           }
         }
@@ -4011,7 +4161,8 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic generic": "enabled"
+        "semantic generic": "enabled",
+        "activiy-card": "disabled"
       },
       "$figmaStyleReferences": {
         "brand.hover": "S:908a63692dc5e5393730ed7161bc05354a9a7d3d,",
@@ -4304,7 +4455,8 @@
         "reference": "source",
         "semantic dark": "enabled",
         "semantic generic": "enabled",
-        "semantic light": "enabled"
+        "semantic light": "enabled",
+        "activiy-card": "disabled"
       },
       "$figmaStyleReferences": {
         "elevation.none": "S:fad78639a2a4d5a86aff46eef7a5914cfe2f420c,",
@@ -4390,21 +4542,21 @@
         "text-strong.default": "S:97b89b4500754f68d5cfa2cb28d77cf849a71f4b,",
         "text-strong.large": "S:5e57d5b633bcf75387bf90b8c4fa78df20070e97,",
         "text-strong.xlarge": "S:f594090c31b210255098cd087cd1249193e19357,",
-        "body-text.small": "S:f88ce7735b0604ae4b5ebb89cc5e59dd17707231,",
-        "body-text.default": "S:11e24fd68ce5e7d4ff96bb667a3f7a01cd6a1ed1,",
-        "body-text.large": "S:f09f907df93ffcd0645bb716741dd547af9cac6e,",
-        "body-text.xlarge": "S:722182ab9476404fb88c8eaddf5b19018cedd00f,",
-        "title.xsmall": "S:5ba267725827a37233cafed81bab25c2afc61fb8,",
-        "title.small": "S:55042a69a43ad88899f6bb6303cd03c8c86e12cf,",
-        "title.default": "S:05f869bcbf9eab25e8992755bab0ba6f72f74151,",
-        "title.large": "S:805c1f8faf410681ff128f1ecc17aa36c969609a,",
-        "heading.small": "S:6d74658fd83f142f0ac5ffb104be88133e09cd35,",
-        "heading.default": "S:8dbffc2affabf9972815b3b676580d8b5f88625e,",
-        "heading.large": "S:3abebf49c20b08be7e276bba108bbb2765dd3f67,",
-        "heading.xlarge": "S:8566fd98fbfcc8112c56c99693e6290a92e27416,",
-        "display.small": "S:46af50d3b73db500bdb109911743fcbd4057bbc5,",
-        "display.default": "S:b487f69ebfd3d1c322d3053c0463cfe7e8f8133a,",
-        "display.large": "S:e424cbc051fa6feb7b3fdde496699c6c9fee19bb,",
+        "body-text.small": "S:257f38952685926fb4621b2ecd0024c0d2a36cbb,",
+        "body-text.default": "S:0da5c908a3a1992e798297f9798f8735e89f91a6,",
+        "body-text.large": "S:9a2581ac13a8b02ca40018fa6c9802f58a6e2092,",
+        "body-text.xlarge": "S:7212a410e720c1a44ca20220d44b1dc792d5ec59,",
+        "title.xsmall": "S:f8080bc23a9bcc1cf1270c2a71bab5d2adb7a41c,",
+        "title.small": "S:0a34218d58716b3e3a34abf3eb4a7ddf2bbec7f0,",
+        "title.default": "S:cb205fb71cade41a78ddf152ddb97fdcecffd6fc,",
+        "title.large": "S:8d4ae9433710b46d1c38831ef379482cfe87c300,",
+        "heading.small": "S:1948bee0c8b9fae52d80fdf554f74a97e2045efb,",
+        "heading.default": "S:8d802528082b90951557d02dc52a233accafd1c3,",
+        "heading.large": "S:1cb7f130b584ae74e271f206f9bd2bbb51b667f8,",
+        "heading.xlarge": "S:7afb6f3ba399db9c6db73e455f3804e4e3760cfb,",
+        "display.small": "S:e0099e5ccbdbc56802afb66c2fdbd198c2eb4b27,",
+        "display.default": "S:f53b4a089aa42b34fbb542e18f321d85686c8ad4,",
+        "display.large": "S:54d3be6ef88c9179f18203415cb4ddae98842eaa,",
         "brand.enabled": "S:a6ef0d180578d3f196b601ccb7dfaa88ee600851,",
         "brand-inverse.enabled": "S:82bae3530b2226577d91c5a1ae2929fcf7092a48,",
         "accent.enabled": "S:d003801a908372c50dbab5d97b39f8de8ac36927,",
@@ -4413,7 +4565,42 @@
         "brand-inverse.on-enabled": "S:d054ce9aec9d37a06cb15ad45e344c2dfaf86a5f,",
         "accent.on-enabled": "S:bb25bce16703922904731ae4601784088fc841c3,",
         "accent-inverse.on-enabled": "S:f3a3c53570efb90436846e2057c0c911297a2757,",
-        "disabled.on-surface-default": "S:1fac65014b79b43603f90616523f09f1a2ea3f48,"
+        "disabled.on-surface-default": "S:1fac65014b79b43603f90616523f09f1a2ea3f48,",
+        "short-text.xsmall": "S:473283ccff33f7c68188803c9d8cf38659f54c5e,",
+        "short-text.small": "S:67a294b5c78afc064f2249f328f8c44dbe5ae4cd,",
+        "short-text.default": "S:f6b87f37efc34cd95bf5bafffd96a00ddf8ce4e2,",
+        "short-text.large": "S:dfc1735dd9fbbc40ee6c9628c62b26b3b3fced91,",
+        "short-text.xlarge": "S:ba461df64f30fc725d9442ebb2b052d1b0cb722e,",
+        "short-text-strong.xsmall": "S:49d620310132de6b4e378e0e14bf8f108b6777c6,",
+        "short-text-strong.small": "S:4e57573acee53d3f90d3cb035a8f47b24015ac46,",
+        "short-text-strong.default": "S:f0299ecee98f7fe86257f89b17e1fd4471454afb,",
+        "short-text-strong.large": "S:7cc9de490f9c64fa9c3bb3cb23663e3c8203a61e,",
+        "short-text-strong.xlarge": "S:bacdd23167ef9072ee3f3edbbe1d1b5a5e68be08,",
+        "display-italic.small": "S:3ce7aafb0e096e932454a8b39cc39a260d1b79a9,",
+        "display-italic.default": "S:1cd1c1508dbe90cfce69942dc93ec880b103e516,",
+        "display-italic.large": "S:70d12cfc224e26d9b9cb94ae626f2f1adb746baa,",
+        "body-text-strong.small": "S:87c3d5dd2cb20be4b82ba802350f9ce3c212793e,",
+        "body-text-strong.default": "S:3f76b59d3ad5c7dfa64d554359edc9e3a5053d66,",
+        "body-text-strong.large": "S:c575975966d610b4fbabb62e44c2836b5fe47a10,",
+        "body-text-strong.xlarge": "S:e92b5390cd1596d208b58b698857dee6268cc14a,",
+        "body-text-strong-italic.small": "S:a56d99c0dc92cf233b0699febd90d0a96a7755c7,",
+        "body-text-strong-italic.default": "S:0803050f648726add94d83a8e01de05b9b02c1bf,",
+        "body-text-strong-italic.large": "S:2df2fb93121ac7fc9a474e30063a4791e4b0e6af,",
+        "body-text-strong-italic.xlarge": "S:442aad03688dada4cfc3df3f574fcab275e730d0,",
+        "body-text-italic.small": "S:44d57281dfda7d7ee13bff32678f3c3ef1ebfd70,",
+        "body-text-italic.default": "S:81c1f39bd512ede1c8ccca7f8866309d732ac6c8,",
+        "body-text-italic.large": "S:28d16df33a6ce3d900eb9b699dc3a2b077f5f1b4,",
+        "body-text-italic.xlarge": "S:85e1cde4cdc4807ad97c0310fe9cd954c197f5cb,",
+        "short-text-italic.xsmall": "S:7497ed94a03f20f015887997c487a5a83fdf1db5,",
+        "short-text-italic.small": "S:3d14eeb62eefc827d6632dc18e80ba62d78a6c73,",
+        "short-text-italic.default": "S:54a25baf1056549970189fab3ca20a11637e3cea,",
+        "short-text-italic.large": "S:05b67369fef024eebba724644d9057088e3b04ed,",
+        "short-text-italic.xlarge": "S:ea1722b8460055acedbcf79feedd6e8304fdf0fc,",
+        "short-text-strong-italic.xsmall": "S:728897616e6021ce8fee594d75ebc99c9aeb4ef7,",
+        "short-text-strong-italic.small": "S:6d1309d7f1ee07cd61e4bb4252d19b136a477805,",
+        "short-text-strong-italic.default": "S:d3cc417eabd57150bc55f7651eea876e3c40a75e,",
+        "short-text-strong-italic.large": "S:67640c4d99d82ca46ed63415acaba65f2987d8c0,",
+        "short-text-strong-italic.xlarge": "S:d2d316d5098318e55689533deb746ac6f0d21867,"
       },
       "$figmaVariableReferences": {
         "brand.default": "6d095d81bc7885f1b9561b0143bafba3fdd02159",
@@ -4571,7 +4758,8 @@
       "name": "Default",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "reference": "enabled"
+        "reference": "enabled",
+        "activiy-card": "disabled"
       },
       "group": "Reference",
       "$figmaCollectionId": "VariableCollectionId:17822:68005",
@@ -4736,6 +4924,7 @@
       "semantic light",
       "semantic dark",
       "link",
+      "activiy-card",
       "badge",
       "bottom-nav",
       "button",
