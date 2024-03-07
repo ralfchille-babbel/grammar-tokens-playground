@@ -2719,7 +2719,7 @@
     }
   },
   "activiy-card": {
-    "variant1": {
+    "variation01": {
       "default": {
         "background": {
           "enabled": {
@@ -2767,7 +2767,7 @@
         }
       }
     },
-    "variant2": {
+    "variation02": {
       "default": {
         "background": {
           "enabled": {
@@ -2815,7 +2815,7 @@
         }
       }
     },
-    "variant3": {
+    "variation03": {
       "default": {
         "background": {
           "enabled": {
@@ -2863,7 +2863,7 @@
         }
       }
     },
-    "variant4": {
+    "variation04": {
       "default": {
         "background": {
           "enabled": {
@@ -2911,7 +2911,7 @@
         }
       }
     },
-    "variant5": {
+    "variation05": {
       "default": {
         "background": {
           "enabled": {
@@ -2959,7 +2959,7 @@
         }
       }
     },
-    "variant6": {
+    "variation06": {
       "default": {
         "background": {
           "enabled": {
@@ -3007,7 +3007,7 @@
         }
       }
     },
-    "variant7": {
+    "variation07": {
       "default": {
         "background": {
           "enabled": {
@@ -3055,7 +3055,7 @@
         }
       }
     },
-    "variant8": {
+    "variation08": {
       "default": {
         "background": {
           "enabled": {
@@ -3103,7 +3103,7 @@
         }
       }
     },
-    "variant9": {
+    "variation09": {
       "default": {
         "background": {
           "enabled": {
@@ -3151,7 +3151,7 @@
         }
       }
     },
-    "variant10": {
+    "variation10": {
       "default": {
         "background": {
           "enabled": {
@@ -3199,7 +3199,7 @@
         }
       }
     },
-    "variant11": {
+    "variation11": {
       "default": {
         "background": {
           "enabled": {
@@ -3247,7 +3247,7 @@
         }
       }
     },
-    "variant12": {
+    "variation12": {
       "default": {
         "background": {
           "enabled": {
